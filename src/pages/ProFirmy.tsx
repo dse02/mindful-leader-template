@@ -20,6 +20,7 @@ const testimonialPhotos: Record<string, string> = {
 const ProFirmy = () => {
   const { t, localPath } = useLanguage();
   const p = t.proFirmy;
+  const h = t.home;
 
   return (
     <div>
