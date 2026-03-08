@@ -34,6 +34,7 @@ const ProFirmy = () => {
               </div>
             ))}
           </div>
+          <p className="text-muted-foreground/60 text-sm text-center mt-8">{p.workshopsPriceNote}</p>
         </div>
       </section>
 
