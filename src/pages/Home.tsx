@@ -129,7 +129,7 @@ const Home = () => {
             ].map((name) => (
               <div
                 key={name}
-                className="flex items-center justify-center h-16 px-4 text-muted-foreground/60 hover:text-foreground transition-colors duration-300"
+                className="flex items-center justify-center h-16 px-4 text-muted-foreground/60"
               >
                 <span className="text-sm md:text-base font-sans font-medium tracking-wide text-center leading-tight">
                   {name}
