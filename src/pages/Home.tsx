@@ -4,7 +4,7 @@ import danielaPhoto from "@/assets/daniela_hero.png";
 
 const themes = [
   "Leadership komunikace",
-  "Náročné rozhovory v týmu",
+  "Náročné rozhovory v\u00A0týmu",
   "Zvládání konfliktů",
   "Multikulturní spolupráce",
   "Rozhodování lídrů",
@@ -30,7 +30,7 @@ const Home = () => (
             Rozhovory, které rozhodují.
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-12 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            Pomáhám lídrům a firmám vést s jasností, zvládat konflikty a budovat silné týmy v mezinárodním prostředí.
+            Pomáhám lídrům a{'\u00A0'}firmám vést s{'\u00A0'}jasností, zvládat konflikty a{'\u00A0'}budovat silné týmy v{'\u00A0'}mezinárodním prostředí.
           </p>
           <div className="animate-fade-in" style={{ animationDelay: "0.3s" }}>
             <Button size="lg" asChild>
@@ -56,7 +56,7 @@ const Home = () => (
               Firemní workshopy & leadership koučink
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              Spolupracuji s firmami, které chtějí rozvíjet své lídry a posilovat komunikaci v týmech. Nabízím praktické workshopy zaměřené na leadership, náročné rozhovory a spolupráci v mezinárodním prostředí, stejně jako individuální koučování pro manažery a lídry.
+              Spolupracuji s{'\u00A0'}firmami, které chtějí rozvíjet své lídry a{'\u00A0'}posilovat komunikaci v{'\u00A0'}týmech. Nabízím praktické workshopy zaměřené na leadership, náročné rozhovory a{'\u00A0'}spolupráci v{'\u00A0'}mezinárodním prostředí, stejně jako individuální koučování pro manažery a{'\u00A0'}lídry.
             </p>
             <Button variant="outline" asChild>
               <Link to="/pro-firmy">Pro firmy</Link>
@@ -67,7 +67,7 @@ const Home = () => (
               Otevřené kurzy & individuální koučink
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              Pro jednotlivce nabízím otevřené kurzy v malé skupině zaměřené na praktické komunikační a leadership dovednosti. Součástí nabídky je také individuální koučink pro lídry a profesionály, kteří procházejí změnou, chtějí růst, zvládat náročné situace a vést rozhovory, které opravdu rozhodují.
+              Pro jednotlivce nabízím otevřené kurzy v{'\u00A0'}malé skupině zaměřené na praktické komunikační a{'\u00A0'}leadership dovednosti. Součástí nabídky je také individuální koučink pro lídry a{'\u00A0'}profesionály, kteří procházejí změnou, chtějí růst, zvládat náročné situace a{'\u00A0'}vést rozhovory, které opravdu rozhodují.
             </p>
             <Button variant="outline" asChild>
               <Link to="/pro-jednotlivce">Pro jednotlivce</Link>
@@ -84,7 +84,7 @@ const Home = () => (
           Expertíza
         </p>
         <h2 className="text-3xl md:text-4xl font-serif font-semibold text-foreground text-center mb-12">
-          Leadership se rozhoduje v rozhovorech.
+          Leadership se rozhoduje v{'\u00A0'}rozhovorech.
         </h2>
         <ul className="space-y-4 max-w-md mx-auto">
           {themes.map((t) => (
@@ -107,7 +107,7 @@ const Home = () => (
           O mně
         </h2>
         <p className="text-muted-foreground leading-relaxed text-lg mb-10">
-          Pomáhám lídrům a firmám rozvíjet komunikaci, která vytváří jasnost, důvěru a výsledky. Ve své práci propojuji leadership rozvoj, praktické komunikační dovednosti a zkušenosti z práce s mezinárodními týmy.
+          Pomáhám lídrům a{'\u00A0'}firmám rozvíjet komunikaci, která vytváří jasnost, důvěru a{'\u00A0'}výsledky. Ve své práci propojuji leadership rozvoj, praktické komunikační dovednosti a{'\u00A0'}zkušenosti z{'\u00A0'}práce s{'\u00A0'}mezinárodními týmy.
         </p>
         <Button variant="outline" asChild>
           <Link to="/o-mne">Více o mně</Link>
