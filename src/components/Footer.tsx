@@ -29,7 +29,7 @@ const Footer = () => (
             ))}
           </nav>
           <p className="mt-8 text-sm text-primary-foreground/50">
-            info@leadershipcoach.cz
+            info@danielasedlonova.cz
           </p>
         </div>
       </div>
