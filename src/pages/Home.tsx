@@ -17,10 +17,10 @@ const Home = () => (
       <img
         src={danielaPhoto}
         alt="Daniela Sedloňová – leadership kouč"
-        className="absolute inset-0 w-full h-full object-cover object-[18%_top]"
+        className="absolute inset-0 w-full h-full object-cover object-[12%_top]"
       />
-      <div className="absolute inset-y-0 left-[52%] right-0 backdrop-blur-md bg-background/35" />
-      <div className="absolute inset-0 bg-gradient-to-r from-transparent from-[42%] via-background/20 via-[52%] to-background/75 to-[70%]" />
+      <div className="absolute inset-y-0 left-[48%] right-0 backdrop-blur-md bg-background/30" />
+      <div className="absolute inset-0 bg-gradient-to-r from-transparent from-[38%] via-background/25 via-[48%] to-background/80 to-[68%]" />
       <div className="relative z-10 container max-w-5xl">
         <div className="ml-auto w-full md:w-1/2 md:pl-8">
           <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-6 animate-fade-in">
