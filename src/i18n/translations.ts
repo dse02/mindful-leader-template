@@ -311,7 +311,7 @@ export const translations = {
       title: "About me",
       p1: "I am a coach and corporate trainer focused on communication, leadership, and multicultural collaboration.",
       p2: "My clients value that I bring hands-on experience from running my own business and twelve years in management roles at international companies. As Commercial Director for Central and Eastern Europe at HRS Group, I led multicultural teams, drove expansion into new markets, and developed not just business — but people.",
-      p3: "Between 2001 and 2003, I became one of only three Google-certified leadership trainers in the Czech Republic and Slovakia. I completed an accredited coaching programme at the Masaryk Institute of Advanced Studies and a team coaching training for high-performance teams under the guidance of Marilyn Atkinson.",
+      p3: "Between 2021 and 2023, I became one of only three Google-certified leadership trainers in the Czech Republic and Slovakia. I completed an accredited coaching programme at the Masaryk Institute of Advanced Studies and a team coaching training for high-performance teams under the guidance of Marilyn Atkinson.",
       cta: "Let's connect",
       photoAlt: "Portrait photo",
     },
