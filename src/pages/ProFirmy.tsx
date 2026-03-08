@@ -30,32 +30,11 @@ const ProFirmy = () => {
           <h1 className="text-4xl md:text-5xl font-serif font-semibold text-foreground leading-tight mb-8">
             {p.heroTitle}
           </h1>
-          <p className="text-lg text-muted-foreground leading-relaxed mb-10">{p.heroDesc}</p>
-          <Button size="lg" asChild>
-            <a href="https://calendly.com/danielasedlonova/konzultace" target="_blank" rel="noopener noreferrer">{p.heroCta}</a>
-          </Button>
+          <p className="text-lg text-muted-foreground leading-relaxed">{p.heroDesc}</p>
         </div>
       </section>
 
       <section className="py-24 md:py-32 bg-secondary">
-        <div className="container max-w-3xl">
-          <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-4 text-center">{p.challengesTag}</p>
-          <h2 className="text-3xl md:text-4xl font-serif font-semibold text-foreground text-center mb-12">
-            {p.challengesTitle}
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4 mb-10">
-            {p.challenges.map((c) => (
-              <div key={c} className="flex items-center gap-4 text-lg text-foreground">
-                <span className="w-2 h-2 rounded-full bg-accent flex-shrink-0" />
-                {c}
-              </div>
-            ))}
-          </div>
-          <p className="text-muted-foreground text-center text-lg leading-relaxed">{p.challengesOutro}</p>
-        </div>
-      </section>
-
-      <section className="py-24 md:py-32">
         <div className="container">
           <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-4 text-center">{p.formatsTag}</p>
           <h2 className="text-3xl md:text-4xl font-serif font-semibold text-foreground text-center mb-16">

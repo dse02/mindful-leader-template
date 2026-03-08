@@ -68,19 +68,8 @@ export const translations = {
     },
     proFirmy: {
       heroTag: "Pro firmy",
-      heroTitle: "Rozhovory, které rozhodují ve vedení týmů",
-      heroDesc: "Pomáhám firmám rozvíjet lídry, kteří vedou s\u00A0jasností, zvládají konflikty a\u00A0vytvářejí prostředí důvěry a\u00A0spolupráce i\u00A0v\u00A0mezinárodních týmech.",
-      heroCta: "Domluvit konzultaci",
-      challengesTag: "Výzvy",
-      challengesTitle: "Výzvy, se kterými lídři často přicházejí",
-      challenges: [
-        "Obtížné rozhovory",
-        "Konflikty mezi lidmi nebo odděleními",
-        "Nejistota při vedení lidí",
-        "Spolupráce v multikulturním prostředí",
-        "Nedostatečná komunikace",
-      ],
-      challengesOutro: "Tyto situace řešíme prakticky — skrze konkrétní rozhovory a\u00A0reálné situace z\u00A0vaší firmy.",
+      heroTitle: "Firemní vzdělávání a rozvoj lídrů",
+      heroDesc: "Pomáhám lídrům a\u00A0týmům tvořit změnu. Zlepšit komunikaci, spolupráci a\u00A0činit strategická rozhodnutí.",
       formatsTag: "Formáty",
       formatsTitle: "Nabídka workshopů",
       workshops: [
@@ -266,19 +255,8 @@ export const translations = {
     },
     proFirmy: {
       heroTag: "For Companies",
-      heroTitle: "Conversations that matter in leading teams",
-      heroDesc: "I help companies develop leaders who lead with clarity, manage conflicts, and create an environment of trust and collaboration — even in international teams.",
-      heroCta: "Book a consultation",
-      challengesTag: "Challenges",
-      challengesTitle: "Challenges leaders often bring",
-      challenges: [
-        "Difficult conversations",
-        "Conflicts between people or departments",
-        "Uncertainty in leading people",
-        "Collaboration in multicultural environments",
-        "Insufficient communication",
-      ],
-      challengesOutro: "We address these situations practically — through specific conversations and real situations from your company.",
+      heroTitle: "Corporate training & leader development",
+      heroDesc: "I help leaders and teams create change. Improve communication, collaboration, and make strategic decisions.",
       formatsTag: "Formats",
       formatsTitle: "Workshop offerings",
       workshops: [
