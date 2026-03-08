@@ -30,8 +30,13 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border/50">
       <div className="container flex items-center justify-between h-16 md:h-20">
-        <Link to="/" className="font-serif text-xl md:text-2xl font-semibold text-primary tracking-tight">
-          Daniela Sedloňová
+        <Link to="/" className="flex items-baseline gap-1.5 group">
+          <span className="text-2xl md:text-3xl text-primary" style={{ fontFamily: "'Dancing Script', cursive" }}>
+            Daniela
+          </span>
+          <span className="text-xs md:text-sm font-sans font-medium tracking-[0.2em] uppercase text-primary">
+            Sedloňová
+          </span>
         </Link>
 
         {/* Desktop nav */}
