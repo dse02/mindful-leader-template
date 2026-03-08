@@ -52,7 +52,7 @@ const ProJednotlivce = () => {
               <img
                 src={workshopWide}
                 alt="Workshop – společná práce ve skupině"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover img-muted"
               />
             </div>
             <div className="order-1 md:order-2">

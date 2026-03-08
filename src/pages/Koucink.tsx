@@ -24,7 +24,7 @@ const Koucink = () => {
             <img
               src={koucinkImg}
               alt="Koučovací místnost – útulný prostor pro individuální setkání"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover img-muted"
             />
           </div>
         </div>
