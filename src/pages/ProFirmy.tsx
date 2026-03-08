@@ -36,6 +36,18 @@ const ProFirmy = () => {
         </div>
       </section>
 
+      <section className="py-0">
+        <div className="container max-w-4xl">
+          <div className="aspect-[16/9] overflow-hidden">
+            <img
+              src={workshopImg}
+              alt="Skupinový workshop – práce v týmu u flipchartu"
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+      </section>
+
       <section className="py-24 md:py-32">
         <div className="container max-w-3xl">
           <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-4 text-center">{p.coachingTag}</p>
