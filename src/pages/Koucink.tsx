@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/i18n/LanguageContext";
+import koucinkImg from "@/assets/koucink_mistnost.jpeg";
 
 const Koucink = () => {
   const { t } = useLanguage();
