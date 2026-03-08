@@ -67,7 +67,7 @@ const Home = () => (
               Otevřené kurzy & individuální koučink
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              Pro jednotlivce nabízím otevřené kurzy v malé skupině zaměřené na praktické komunikační a leadership dovednosti. Součástí nabídky je také individuální koučink pro lídry a profesionály, kteří procházejí změnou, chtějí růst, zvládat náročné situace a vést rozhovory, které opravdu rozhodují.
+              Pro jednotlivce nabízím otevřené kurzy v{'\u00A0'}malé skupině zaměřené na praktické komunikační a{'\u00A0'}leadership dovednosti. Součástí nabídky je také individuální koučink pro lídry a{'\u00A0'}profesionály, kteří procházejí změnou, chtějí růst, zvládat náročné situace a{'\u00A0'}vést rozhovory, které opravdu rozhodují.
             </p>
             <Button variant="outline" asChild>
               <Link to="/pro-jednotlivce">Pro jednotlivce</Link>
