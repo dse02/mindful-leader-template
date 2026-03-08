@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/i18n/LanguageContext";
+import workshopImg from "@/assets/workshop_group.jpeg";
 
 const ProFirmy = () => {
   const { t, localPath } = useLanguage();
@@ -31,6 +32,18 @@ const ProFirmy = () => {
                 <p className="text-muted-foreground text-sm leading-relaxed">{w.desc}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-0">
+        <div className="container max-w-4xl">
+          <div className="aspect-[16/9] overflow-hidden">
+            <img
+              src={workshopImg}
+              alt="Skupinový workshop – práce v týmu u flipchartu"
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
       </section>
