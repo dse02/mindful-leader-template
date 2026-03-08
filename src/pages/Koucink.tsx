@@ -18,6 +18,18 @@ const Koucink = () => {
         </div>
       </section>
 
+      <section className="py-0">
+        <div className="container max-w-4xl">
+          <div className="aspect-[16/9] overflow-hidden">
+            <img
+              src={koucinkImg}
+              alt="Koučovací místnost – útulný prostor pro individuální setkání"
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+      </section>
+
       <section className="py-24 md:py-32 bg-secondary">
         <div className="container">
           <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-4 text-center">{k.offerTag}</p>
