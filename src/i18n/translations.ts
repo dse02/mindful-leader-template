@@ -8,7 +8,7 @@ export const translations = {
       forIndividuals: "Pro jednotlivce",
       overview: "Přehled",
       coaching: "Individuální koučink",
-      workshops: "Otevřené workshopy",
+      workshops: "Otevřené kurzy",
       about: "O mně",
       contact: "Kontakt",
     },
