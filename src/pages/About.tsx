@@ -29,9 +29,11 @@ const About = () => {
               </div>
             </div>
             <div className="flex justify-center">
-              <div className="w-full max-w-sm aspect-[3/4] bg-secondary border border-border flex items-center justify-center">
-                <p className="text-muted-foreground text-sm">{a.photoAlt}</p>
-              </div>
+              <img
+                src={danielaAbout}
+                alt={a.photoAlt}
+                className="w-full max-w-sm aspect-[3/4] object-cover object-center"
+              />
             </div>
           </div>
         </div>
