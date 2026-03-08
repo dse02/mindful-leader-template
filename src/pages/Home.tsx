@@ -27,7 +27,7 @@ const Home = () => (
             Leadership · Komunikace · Multikulturní spolupráce
           </p>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-semibold text-foreground leading-tight mb-8 animate-fade-in" style={{ animationDelay: "0.1s" }}>
-            Rozhovory, které rozhodují.
+            Rozhovory,<br />které rozhodují.
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-12 animate-fade-in" style={{ animationDelay: "0.2s" }}>
             Pomáhám lídrům a{'\u00A0'}firmám vést s{'\u00A0'}jasností, zvládat konflikty a{'\u00A0'}budovat silné týmy v{'\u00A0'}mezinárodním prostředí.
