@@ -86,7 +86,7 @@ export const translations = {
     proJednotlivce: {
       heroTag: "Pro jednotlivce",
       heroTitle: "Pro jednotlivce",
-      heroDesc: "Pro lídry, podnikatele a profesionály, kteří chtějí růst, zvládat náročné situace a vést rozhovory, které opravdu rozhodují.",
+      heroDesc: "Pro lídry, podnikatele a profesionály, kteří chtějí růst, zvládat změnu a vést náročné rozhovory, které opravdu rozhodují.",
       coachingTag: "Koučink",
       coachingTitle: "Individuální leadership koučink",
       coachingDesc: "Strategická spolupráce pro lídry a podnikatele, kteří stojí před důležitými rozhodnutími, řeší náročné situace v týmu nebo chtějí růst do další úrovně leadershipu.",
@@ -252,7 +252,7 @@ export const translations = {
     proJednotlivce: {
       heroTag: "For Individuals",
       heroTitle: "For Individuals",
-      heroDesc: "For leaders, entrepreneurs, and professionals who want to grow, handle challenging situations, and lead conversations that truly matter.",
+      heroDesc: "For leaders, entrepreneurs, and professionals who want to grow, navigate change, and lead tough conversations that truly decide.",
       coachingTag: "Coaching",
       coachingTitle: "Individual leadership coaching",
       coachingDesc: "Strategic collaboration for leaders and entrepreneurs facing important decisions, dealing with challenging team situations, or wanting to grow to the next level of leadership.",
