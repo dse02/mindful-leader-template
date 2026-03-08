@@ -7,7 +7,7 @@ const Footer = () => {
   const links = [
     { to: "/", label: t.nav.home },
     { to: "/pro-firmy", label: t.nav.forCompanies },
-    { to: "/koucink", label: t.nav.coaching },
+    { to: "/pro-jednotlivce", label: t.nav.forIndividuals },
     { to: "/o-mne", label: t.nav.about },
     { to: "/kontakt", label: t.nav.contact },
   ];
@@ -34,6 +34,14 @@ const Footer = () => {
                 </Link>
               ))}
             </nav>
+            <a
+              href="https://www.linkedin.com/in/danielasedlonova/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-4 text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+            >
+              LinkedIn
+            </a>
             <p className="mt-8 text-sm text-primary-foreground/50">
               info@danielasedlonova.cz
             </p>
