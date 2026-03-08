@@ -84,7 +84,7 @@ export const translations = {
       coachingFormatLabel: "Formát:",
       coachingBtn: "Zjistit více o koučinku",
       topicsTag: "Témata",
-      topicsTitle: "Témata, která řešíme",
+      topicsTitle: "Častá témata jsou",
       topics: [
         "Leadership",
         "Zvládání konfliktů",
@@ -269,7 +269,7 @@ export const translations = {
       coachingFormatLabel: "Format:",
       coachingBtn: "Learn more about coaching",
       topicsTag: "Topics",
-      topicsTitle: "Topics we address",
+      topicsTitle: "Common topics include",
       topics: [
         "Leadership",
         "Conflict management",
