@@ -28,7 +28,7 @@ const Koucink = () => {
               <p className="text-accent font-sans text-xs tracking-[0.15em] uppercase mb-2">{k.single}</p>
               <h3 className="text-xl font-serif font-semibold text-foreground mb-2">{k.singleTitle}</h3>
               <p className="text-muted-foreground text-sm mb-6">{k.singleTime}</p>
-              <p className="text-2xl font-serif font-semibold text-foreground mt-auto">6 000 Kč</p>
+              <p className="text-2xl font-serif font-semibold text-foreground mt-auto">{k.singlePrice}</p>
             </div>
             <div className="bg-background p-8 border border-border flex flex-col">
               <p className="text-accent font-sans text-xs tracking-[0.15em] uppercase mb-2">{k.package}</p>
