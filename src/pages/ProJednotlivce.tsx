@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/i18n/LanguageContext";
 import workshopWide from "@/assets/workshop_wide.jpg";
+import koucinkImg from "@/assets/koucink_mistnost.jpeg";
 
 const ProJednotlivce = () => {
   const { t, localPath } = useLanguage();
