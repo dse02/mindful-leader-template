@@ -37,6 +37,25 @@ const ProFirmy = () => {
 
       <section className="py-24 md:py-32">
         <div className="container max-w-3xl">
+          <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-4 text-center">{p.coachingTag}</p>
+          <h2 className="text-3xl md:text-4xl font-serif font-semibold text-foreground text-center mb-8">
+            {p.coachingTitle}
+          </h2>
+          <p className="text-muted-foreground leading-relaxed text-lg text-center mb-6">
+            {p.coachingDesc}
+          </p>
+          <p className="text-foreground text-center mb-10">
+            <span className="font-medium">{p.coachingFormatLabel}</span> {p.coachingFormat}
+          </p>
+          <div className="text-center">
+            <Button variant="outline" asChild>
+              <Link to={localPath("/koucink")}>{p.coachingBtn}</Link>
+            </Button>
+          </div>
+        </div>
+      </section>
+
+        <div className="container max-w-3xl">
           <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-4 text-center">{p.topicsTag}</p>
           <h2 className="text-3xl md:text-4xl font-serif font-semibold text-foreground text-center mb-12">
             {p.topicsTitle}
