@@ -266,8 +266,19 @@ export const translations = {
     },
     proFirmy: {
       heroTag: "For Companies",
-      heroTitle: "Corporate training & leader development",
-      heroDesc: "I help leaders and teams create change. Improve communication, collaboration, and make strategic decisions.",
+      heroTitle: "Conversations that matter in leading teams",
+      heroDesc: "I help companies develop leaders who lead with clarity, manage conflicts, and create an environment of trust and collaboration — even in international teams.",
+      heroCta: "Book a consultation",
+      challengesTag: "Challenges",
+      challengesTitle: "Challenges leaders often bring",
+      challenges: [
+        "Difficult conversations",
+        "Conflicts between people or departments",
+        "Uncertainty in leading people",
+        "Collaboration in multicultural environments",
+        "Insufficient communication",
+      ],
+      challengesOutro: "We address these situations practically — through specific conversations and real situations from your company.",
       formatsTag: "Formats",
       formatsTitle: "Workshop offerings",
       workshops: [
