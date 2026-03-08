@@ -28,12 +28,31 @@ export const translations = {
       individualBtn: "Pro jednotlivce",
       expertiseTag: "Expertíza",
       expertiseTitle: "Leadership, komunikace, multikulturní spolupráce.",
-      themes: [
-        "Leadership komunikace",
-        "Náročné rozhovory v\u00A0týmu",
-        "Zvládání konfliktů",
-        "Multikulturní spolupráce",
-        "Rozhodování lídrů",
+      expertiseColumns: [
+        {
+          title: "Leadership",
+          items: [
+            "Autentický leadership",
+            "Vedení multikulturních týmů",
+            "Delegování a\u00A0provození proaktivity",
+            "Leadership zaměřený na řešení",
+          ],
+        },
+        {
+          title: "Komunikace",
+          items: [
+            "Síla otázek",
+            "Efektivní komunikace a\u00A0propojení týmů",
+            "Náročné rozhovory",
+            "Zpětná vazba",
+          ],
+        },
+        {
+          title: "Multikulturní spolupráce",
+          items: [
+            "The Culture Map",
+          ],
+        },
       ],
       aboutTag: "O mně",
       aboutTitle: "Daniela Sedloňová",
