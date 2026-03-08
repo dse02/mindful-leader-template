@@ -35,20 +35,36 @@ const ProFirmy = () => {
       </section>
 
       <section className="py-24 md:py-32 bg-secondary">
-        <div className="container">
-          <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-4 text-center">{p.formatsTag}</p>
-          <h2 className="text-3xl md:text-4xl font-serif font-semibold text-foreground text-center mb-16">
-            {p.formatsTitle}
+        <div className="container max-w-3xl">
+          <h2 className="text-3xl md:text-4xl font-serif font-semibold text-foreground text-center mb-12">
+            {p.challengesTitle}
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            {p.workshops.map((w) => (
-              <div key={w.title} className="bg-background p-8 border border-border flex flex-col">
-                <h3 className="text-xl font-serif font-semibold text-foreground mb-3">{w.title}</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">{w.desc}</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4 mb-10">
+            {p.challenges.map((item) => (
+              <div key={item} className="flex items-center gap-4 text-lg text-foreground">
+                <span className="w-2 h-2 rounded-full bg-accent flex-shrink-0" />
+                {item}
               </div>
             ))}
           </div>
-          <p className="text-muted-foreground/60 text-sm text-center mt-8">{p.workshopsPriceNote}</p>
+          <p className="text-muted-foreground text-center text-lg">{p.challengesNote}</p>
+        </div>
+      </section>
+
+      <section className="py-24 md:py-32">
+        <div className="container">
+          <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-4 text-center">{p.cooperationTag}</p>
+          <h2 className="text-3xl md:text-4xl font-serif font-semibold text-foreground text-center mb-16">
+            {p.cooperationTitle}
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+            {p.cooperationBlocks.map((b) => (
+              <div key={b.title} className="bg-secondary p-8 border border-border flex flex-col">
+                <h3 className="text-xl font-serif font-semibold text-foreground mb-3">{b.title}</h3>
+                <p className="text-muted-foreground text-sm leading-relaxed">{b.desc}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
