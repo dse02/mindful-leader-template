@@ -260,8 +260,8 @@ export const translations = {
       formatsTag: "Formats",
       formatsTitle: "Workshop offerings",
       workshops: [
-        { title: "90-minute lecture", desc: "Intensive lecture focused on a specific topic.", price: "from 23 750 CZK" },
-        { title: "Half-day workshop", desc: "Practical workshop with space for discussion and exercises.", price: "from 36 250 CZK" },
+        { title: "90-minute lecture", desc: "Intensive lecture focused on a specific topic.", price: "from 24 000 CZK" },
+        { title: "Half-day workshop", desc: "Practical workshop with space for discussion and exercises.", price: "from 36 000 CZK" },
         { title: "Full-day workshop", desc: "Comprehensive program with a deep dive into the topic.", price: "from 60 000 CZK" },
       ],
       workshopsPriceNote: "* Prices listed are for workshops conducted in English.",
