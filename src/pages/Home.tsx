@@ -166,31 +166,39 @@ const Home = () => {
           <p className="text-muted-foreground text-center text-lg mb-16">
             {h.testimonialsDesc}
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {h.testimonials.map((t, i) => (
-              <blockquote key={i} className="bg-background rounded-lg p-8 flex flex-col justify-between shadow-sm">
-                <p className="text-foreground leading-relaxed mb-6 italic text-[0.95rem]">
-                  „{t.quote}"
-                </p>
-                <footer className="flex items-center gap-3 text-sm text-muted-foreground">
-                  {t.photo ? (
-                    <img
-                      src={testimonialPhotos[t.photo]}
-                      alt={t.author}
-                      className="w-10 h-10 rounded-full object-cover flex-shrink-0"
-                    />
-                  ) : (
-                    <div className="w-10 h-10 rounded-full bg-muted flex-shrink-0" />
-                  )}
-                  <div>
-                    <span className="font-medium text-foreground">{t.author}</span>
-                    <br />
-                    {t.company}
-                  </div>
-                </footer>
-              </blockquote>
-            ))}
-          </div>
+          <Carousel opts={{ align: "start", loop: true }} className="w-full">
+            <CarouselContent className="-ml-4">
+              {h.testimonials.map((t, i) => (
+                <CarouselItem key={i} className="pl-4 md:basis-1/2 lg:basis-1/3">
+                  <blockquote className="bg-background rounded-lg p-8 flex flex-col justify-between shadow-sm h-full">
+                    <p className="text-foreground leading-relaxed mb-6 italic text-[0.95rem]">
+                      „{t.quote}"
+                    </p>
+                    <footer className="flex items-center gap-3 text-sm text-muted-foreground">
+                      {t.photo ? (
+                        <img
+                          src={testimonialPhotos[t.photo]}
+                          alt={t.author}
+                          className="w-10 h-10 rounded-full object-cover flex-shrink-0"
+                        />
+                      ) : (
+                        <div className="w-10 h-10 rounded-full bg-muted flex-shrink-0" />
+                      )}
+                      <div>
+                        <span className="font-medium text-foreground">{t.author}</span>
+                        <br />
+                        {t.company}
+                      </div>
+                    </footer>
+                  </blockquote>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <div className="flex justify-center gap-4 mt-8">
+              <CarouselPrevious className="static translate-y-0" />
+              <CarouselNext className="static translate-y-0" />
+            </div>
+          </Carousel>
         </div>
       </section>
 
