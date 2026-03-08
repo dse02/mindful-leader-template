@@ -19,8 +19,8 @@ const Home = () => (
         alt="Daniela Sedloňová – leadership kouč"
         className="absolute inset-0 w-full h-full object-cover object-[12%_top]"
       />
-      <div className="absolute inset-y-0 left-[48%] right-0 backdrop-blur-md bg-background/30" />
-      <div className="absolute inset-0 bg-gradient-to-r from-transparent from-[38%] via-background/25 via-[48%] to-background/80 to-[68%]" />
+      <div className="absolute inset-0 backdrop-blur-md [mask-image:linear-gradient(to_right,transparent_40%,black_65%)]" />
+      <div className="absolute inset-0 bg-gradient-to-r from-transparent from-[35%] to-background/85 to-[70%]" />
       <div className="relative z-10 container max-w-5xl">
         <div className="ml-auto w-full md:w-1/2 md:pl-8">
           <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-6 animate-fade-in">
