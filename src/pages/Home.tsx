@@ -17,9 +17,9 @@ const Home = () => (
       <img
         src={danielaPhoto}
         alt="Daniela Sedloňová – leadership kouč"
-        className="absolute inset-0 w-full h-full object-cover object-[25%_top]"
+        className="absolute inset-0 w-full h-full object-cover object-[15%_top]"
       />
-      <div className="absolute inset-0 bg-gradient-to-r from-transparent from-30% via-background/70 via-50% to-background to-65%" />
+      <div className="absolute inset-0 bg-gradient-to-r from-transparent from-25% via-background/40 via-40% to-background to-60%" />
       <div className="relative z-10 container max-w-5xl">
         <div className="ml-auto w-1/2 pl-8">
           <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-6 animate-fade-in">
