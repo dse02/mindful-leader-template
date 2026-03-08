@@ -125,7 +125,7 @@ const Home = () => {
             {[
               "Google", "L'Oréal", "Legrand", "WPP", "Česká spořitelna",
               "Dentsu", "Livesport", "Siemens", "EON", "University of New York",
-              "UMPRUM", "Point One", "Struers", "Geometry"
+              "UMPRUM", "Point One", "Struers", "Geometry", "Proficio", "Servier"
             ].map((name) => (
               <div
                 key={name}
