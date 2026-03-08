@@ -74,7 +74,7 @@ const Koucink = () => (
           className="bg-primary-foreground text-primary hover:bg-primary-foreground/90"
           asChild
         >
-          <Link to="/kontakt">Rezervovat termín</Link>
+          <a href="https://calendly.com/danielasedlonova/konzultace" target="_blank" rel="noopener noreferrer">Rezervovat termín</a>
         </Button>
       </div>
     </section>

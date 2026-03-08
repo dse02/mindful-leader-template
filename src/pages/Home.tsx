@@ -25,7 +25,7 @@ const Home = () => (
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in" style={{ animationDelay: "0.3s" }}>
           <Button size="lg" asChild>
-            <Link to="/kontakt">Domluvit úvodní konzultaci</Link>
+            <a href="https://calendly.com/danielasedlonova/konzultace" target="_blank" rel="noopener noreferrer">Domluvit úvodní konzultaci</a>
           </Button>
           <Button variant="outline" size="lg" asChild>
             <Link to="/pro-firmy">Pro firmy</Link>
@@ -122,7 +122,7 @@ const Home = () => (
           className="bg-primary-foreground text-primary hover:bg-primary-foreground/90"
           asChild
         >
-          <Link to="/kontakt">Domluvit konzultaci</Link>
+          <a href="https://calendly.com/danielasedlonova/konzultace" target="_blank" rel="noopener noreferrer">Domluvit konzultaci</a>
         </Button>
       </div>
     </section>
