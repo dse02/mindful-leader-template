@@ -118,7 +118,7 @@ export const translations = {
       pack6Price: "32 400 Kč",
       pack12Title: "6 měsíční spolupráce",
       pack12Desc: "12× 90 minut",
-      pack12Price: "58 300 Kč",
+      pack12Price: "58 400 Kč",
       desc1: "Koučinkové sezení jsou hluboké strategické rozhovory zaměřené na reálné výzvy, se kterými se v roli lídra setkáváte.",
       desc2: "Pracujeme s vašimi konkrétními situacemi – rozhodováním, komunikací, vedením lidí i osobním nastavením.",
       ctaTitle: "Rezervovat úvodní konzultaci",
