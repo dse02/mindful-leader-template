@@ -97,6 +97,7 @@ export const translations = {
         "Asertivita",
         "Motivace a\u00A0proaktivita",
         "Vedení multikulturních týmů",
+        "Zpětná vazba",
       ],
       ctaTitle: "Domluvme nezávazný rozhovor.",
       ctaBtn: "Kontaktovat",
