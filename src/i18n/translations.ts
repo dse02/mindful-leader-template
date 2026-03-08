@@ -200,9 +200,9 @@ export const translations = {
       testimonialsTitle: "What clients say",
       testimonialsDesc: "Real feedback from directors, HR managers, and individuals.",
       testimonials: [
-        { quote: "Daniela helped us fundamentally improve communication in management. A practical approach with immediate results.", author: "HR Director", company: "International tech company" },
-        { quote: "Coaching with Daniela gave me clarity in decision-making and confidence in leading my team. I recommend it to every leader.", author: "CEO", company: "Startup" },
-        { quote: "The difficult conversations workshop was the most practical training I've ever attended. I started applying it immediately.", author: "Senior Manager", company: "Corporate environment" },
+        { quote: "I had the pleasure of working with Daniela over the past three months, and I am incredibly grateful for her guidance. She supported me through challenging times, helping me see situations from different perspectives, which greatly improved my confidence in pursuing my own ideas, also connected to decision making. Daniela is a fantastic listener who truly sees the person behind the challenges.", author: "Anna Behler", company: "General Manager Czech Republic, Legrand", photo: "anna_behler" },
+        { quote: "Daniela helped us fundamentally improve communication in management. A practical approach with immediate results.", author: "HR Director", company: "International tech company", photo: "" },
+        { quote: "The difficult conversations workshop was the most practical training I've ever attended. I started applying it immediately.", author: "Senior Manager", company: "Corporate environment", photo: "" },
       ],
       ctaTitle: "Let's start a conversation.",
       ctaDesc: "Every collaboration begins with an introductory consultation.",
