@@ -53,10 +53,10 @@ const Home = () => (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 max-w-4xl mx-auto">
           <div className="space-y-5">
             <h3 className="text-2xl font-serif font-semibold text-foreground">
-              Firemní workshopy
+              Firemní workshopy & leadership koučink
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              Praktické workshopy pro manažery a týmy zaměřené na komunikaci, řešení konfliktů a efektivní spolupráci v mezinárodním prostředí.
+              Spolupracuji s firmami, které chtějí rozvíjet své lídry a posilovat komunikaci v týmech. Nabízím praktické workshopy zaměřené na leadership, náročné rozhovory a spolupráci v mezinárodním prostředí, stejně jako individuální koučování pro manažery a lídry.
             </p>
             <Button variant="outline" asChild>
               <Link to="/pro-firmy">Pro firmy</Link>
@@ -64,13 +64,13 @@ const Home = () => (
           </div>
           <div className="space-y-5">
             <h3 className="text-2xl font-serif font-semibold text-foreground">
-              Individuální koučink
+              Otevřené kurzy & individuální koučink
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              Strategické rozhovory pro lídry a podnikatele, kteří stojí před náročným rozhodnutím, konfliktem nebo změnou role.
+              Pro jednotlivce nabízím otevřené tříhodinové kurzy v malé skupině zaměřené na praktické komunikační a leadership dovednosti. Součástí nabídky je také individuální koučink pro lídry a profesionály, kteří procházejí změnou, chtějí růst, zvládat náročné situace a vést rozhovory, které opravdu rozhodují.
             </p>
             <Button variant="outline" asChild>
-              <Link to="/koucink">Individuální koučink</Link>
+              <Link to="/pro-jednotlivce">Pro jednotlivce</Link>
             </Button>
           </div>
         </div>
