@@ -1,19 +1,27 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
+const themes = [
+  "Leadership komunikace",
+  "Náročné rozhovory v týmu",
+  "Zvládání konfliktů",
+  "Multikulturní spolupráce",
+  "Rozhodování lídrů",
+];
+
 const Home = () => (
   <div>
     {/* Hero */}
     <section className="py-24 md:py-36">
       <div className="container max-w-3xl text-center">
         <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-6 animate-fade-in">
-          Leadership · Komunikace · Mindset
+          Leadership · Komunikace · Multikulturní spolupráce
         </p>
         <h1 className="text-4xl md:text-6xl font-serif font-semibold text-foreground leading-tight mb-8 animate-fade-in" style={{ animationDelay: "0.1s" }}>
-          Leadership. Komunikace. Mindset.
+          Rozhovory, které rozhodují.
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-12 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-          Pomáhám lídrům, podnikatelům a firmám rozvíjet silnou komunikaci, zvládat náročné situace a budovat zdravou pracovní kulturu.
+          Pomáhám lídrům a firmám vést s jasností, zvládat konflikty a budovat silné týmy – i v mezinárodním prostředí.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in" style={{ animationDelay: "0.3s" }}>
           <Button size="lg" asChild>
@@ -38,11 +46,10 @@ const Home = () => (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 max-w-4xl mx-auto">
           <div className="space-y-5">
             <h3 className="text-2xl font-serif font-semibold text-foreground">
-              Firemní tréninky a rozvoj týmů
+              Firemní leadership workshopy
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              Navrhuji a vedu workshopy zaměřené na komunikaci, leadership a spolupráci v týmech.
-              Programy jsou praktické, interaktivní a zaměřené na reálné situace z pracovního prostředí.
+              Praktické workshopy pro manažery a týmy zaměřené na komunikaci, řešení konfliktů a efektivní spolupráci v mezinárodním prostředí.
             </p>
             <Button variant="outline" asChild>
               <Link to="/pro-firmy">Pro firmy</Link>
@@ -53,7 +60,7 @@ const Home = () => (
               Individuální leadership koučink
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              Individuální spolupráce pro podnikatele a lídry, kteří chtějí růst, rozhodovat jistěji a zvládat náročné situace s větší vnitřní stabilitou.
+              Strategické rozhovory pro lídry a podnikatele, kteří stojí před náročným rozhodnutím, konfliktem nebo změnou role.
             </p>
             <Button variant="outline" asChild>
               <Link to="/koucink">Individuální koučink</Link>
@@ -63,8 +70,28 @@ const Home = () => (
       </div>
     </section>
 
-    {/* About preview */}
+    {/* Core expertise */}
     <section className="py-24 md:py-32">
+      <div className="container max-w-3xl">
+        <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-4 text-center">
+          Expertíza
+        </p>
+        <h2 className="text-3xl md:text-4xl font-serif font-semibold text-foreground text-center mb-12">
+          Leadership se rozhoduje v rozhovorech.
+        </h2>
+        <ul className="space-y-4 max-w-md mx-auto">
+          {themes.map((t) => (
+            <li key={t} className="flex items-center gap-4 text-lg text-foreground">
+              <span className="w-2 h-2 rounded-full bg-accent flex-shrink-0" />
+              {t}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+
+    {/* About preview */}
+    <section className="py-24 md:py-32 bg-secondary">
       <div className="container max-w-3xl text-center">
         <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-4">
           O mně
@@ -72,11 +99,8 @@ const Home = () => (
         <h2 className="text-3xl md:text-4xl font-serif font-semibold text-foreground mb-8">
           O mně
         </h2>
-        <p className="text-muted-foreground leading-relaxed text-lg mb-4">
-          Pracuji s lídry a týmy, které chtějí růst nejen ve výsledcích, ale i ve způsobu, jakým spolupracují a komunikují.
-        </p>
         <p className="text-muted-foreground leading-relaxed text-lg mb-10">
-          Ve své práci propojuji leadership, mezikulturní komunikaci a osobní rozvoj.
+          Pomáhám lídrům a firmám rozvíjet komunikaci, která vytváří jasnost, důvěru a výsledky. Ve své práci propojuji leadership rozvoj, praktické komunikační dovednosti a zkušenosti z práce s mezinárodními týmy.
         </p>
         <Button variant="outline" asChild>
           <Link to="/o-mne">Více o mně</Link>
@@ -98,7 +122,7 @@ const Home = () => (
           className="bg-primary-foreground text-primary hover:bg-primary-foreground/90"
           asChild
         >
-          <Link to="/kontakt">Rezervovat termín</Link>
+          <Link to="/kontakt">Domluvit konzultaci</Link>
         </Button>
       </div>
     </section>
