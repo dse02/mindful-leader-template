@@ -4,10 +4,12 @@ import { useLanguage } from "@/i18n/LanguageContext";
 import danielaPhoto from "@/assets/daniela_hero.png";
 import kristynaPhoto from "@/assets/kristyna_kolcavova.png";
 import annaPhoto from "@/assets/anna_behler.png";
+import gabrielaPhoto from "@/assets/gabriela_simsova.png";
 
 const testimonialPhotos: Record<string, string> = {
   kristyna_kolcavova: kristynaPhoto,
   anna_behler: annaPhoto,
+  gabriela_simsova: gabrielaPhoto,
 };
 
 const Home = () => {
