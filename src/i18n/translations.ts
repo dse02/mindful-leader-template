@@ -141,6 +141,7 @@ export const translations = {
       pack12Price: "58 400 Kč",
       desc1: "Koučinkové sezení jsou hluboké strategické rozhovory zaměřené na reálné výzvy, se kterými se v roli lídra setkáváte.",
       desc2: "Pracujeme s vašimi konkrétními situacemi – rozhodováním, komunikací, vedením lidí i osobním nastavením.",
+      priceNote: "* Uvedené ceny jsou pro koučink v\u00A0češtině.",
       ctaTitle: "Rezervovat úvodní konzultaci",
       ctaBtn: "Rezervovat termín",
     },
