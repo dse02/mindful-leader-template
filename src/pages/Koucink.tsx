@@ -47,6 +47,7 @@ const Koucink = () => {
               <p className="text-2xl font-serif font-semibold text-foreground mt-auto">{k.pack12Price}</p>
             </div>
           </div>
+          <p className="text-muted-foreground/60 text-sm text-center mt-8">{k.priceNote}</p>
         </div>
       </section>
 
