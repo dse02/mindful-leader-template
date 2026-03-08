@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/i18n/LanguageContext";
+import koucinkImg from "@/assets/koucink_mistnost.jpeg";
 
 const Koucink = () => {
   const { t } = useLanguage();
@@ -14,6 +15,18 @@ const Koucink = () => {
             {k.heroTitle}
           </h1>
           <p className="text-lg text-muted-foreground leading-relaxed">{k.heroDesc}</p>
+        </div>
+      </section>
+
+      <section className="py-0">
+        <div className="container max-w-4xl">
+          <div className="aspect-[16/9] overflow-hidden">
+            <img
+              src={koucinkImg}
+              alt="Koučovací místnost – útulný prostor pro individuální setkání"
+              className="w-full h-full object-cover"
+            />
+          </div>
         </div>
       </section>
 
