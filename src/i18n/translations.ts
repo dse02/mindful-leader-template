@@ -69,9 +69,9 @@ export const translations = {
     proFirmy: {
       heroTag: "Pro firmy",
       heroTitle: "Firemní vzdělávání a rozvoj lídrů",
-      heroDesc: "Pomáhám firmám rozvíjet silnou komunikaci, zvládat konflikty a posilovat leadership týmů.",
+      heroDesc: "Pomáhám lídrům a\u00A0týmům tvořit změnu. Zlepšit komunikaci, spolupráci a\u00A0činit strategická rozhodnutí.",
       formatsTag: "Formáty",
-      formatsTitle: "Nabídka workshopů a koučinku",
+      formatsTitle: "Nabídka workshopů",
       workshops: [
         { title: "90 minut přednáška", desc: "Intenzivní přednáška zaměřená na konkrétní téma." },
         { title: "Půldenní workshop", desc: "Praktický workshop s prostorem pro diskuzi a cvičení." },
