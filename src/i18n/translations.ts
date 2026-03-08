@@ -69,9 +69,9 @@ export const translations = {
     proFirmy: {
       heroTag: "Pro firmy",
       heroTitle: "Firemní vzdělávání a rozvoj lídrů",
-      heroDesc: "Pomáhám firmám rozvíjet silnou komunikaci, zvládat konflikty a posilovat leadership týmů.",
+      heroDesc: "Pomáhám lídrům a\u00A0týmům tvořit změnu. Zlepšit komunikaci, spolupráci a\u00A0činit strategická rozhodnutí.",
       formatsTag: "Formáty",
-      formatsTitle: "Nabídka workshopů a koučinku",
+      formatsTitle: "Nabídka workshopů",
       workshops: [
         { title: "90 minut přednáška", desc: "Intenzivní přednáška zaměřená na konkrétní téma." },
         { title: "Půldenní workshop", desc: "Praktický workshop s prostorem pro diskuzi a cvičení." },
@@ -86,10 +86,12 @@ export const translations = {
       topicsTag: "Témata",
       topicsTitle: "Témata, která řešíme",
       topics: [
-        "Leadership komunikace",
+        "Leadership",
         "Zvládání konfliktů",
         "Mezikulturní spolupráce",
-        "Psychologická bezpečnost v týmu",
+        "Komunikace napříč kulturami",
+        "Psychologické bezpečí",
+        "Stres",
       ],
       ctaTitle: "Domluvme nezávazný rozhovor.",
       ctaBtn: "Kontaktovat",
@@ -246,9 +248,9 @@ export const translations = {
     proFirmy: {
       heroTag: "For Companies",
       heroTitle: "Corporate training & leader development",
-      heroDesc: "I help companies develop strong communication, manage conflicts, and strengthen team leadership.",
+      heroDesc: "I help leaders and teams create change. Improve communication, collaboration, and make strategic decisions.",
       formatsTag: "Formats",
-      formatsTitle: "Workshop & coaching offerings",
+      formatsTitle: "Workshop offerings",
       workshops: [
         { title: "90-minute lecture", desc: "Intensive lecture focused on a specific topic." },
         { title: "Half-day workshop", desc: "Practical workshop with space for discussion and exercises." },
@@ -263,10 +265,12 @@ export const translations = {
       topicsTag: "Topics",
       topicsTitle: "Topics we address",
       topics: [
-        "Leadership communication",
+        "Leadership",
         "Conflict management",
         "Cross-cultural collaboration",
-        "Psychological safety in teams",
+        "Communication across cultures",
+        "Psychological safety",
+        "Stress",
       ],
       ctaTitle: "Let's have a conversation.",
       ctaBtn: "Contact",
