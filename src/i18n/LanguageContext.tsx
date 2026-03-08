@@ -1,5 +1,5 @@
 import { createContext, useContext, useMemo } from "react";
-import { useParams, useNavigate, useLocation } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { translations, Lang } from "./translations";
 
 type Translations = (typeof translations)[Lang];
@@ -14,20 +14,17 @@ interface LanguageContextType {
 const LanguageContext = createContext<LanguageContextType | null>(null);
 
 export const LanguageProvider = ({ children }: { children: React.ReactNode }) => {
-  const { lang: langParam } = useParams<{ lang?: string }>();
   const navigate = useNavigate();
   const location = useLocation();
 
-  const lang: Lang = langParam === "en" ? "en" : "cs";
+  const lang: Lang = location.pathname.startsWith("/en") ? "en" : "cs";
   const t = translations[lang];
 
   const switchLang = () => {
     const currentPath = location.pathname;
     if (lang === "cs") {
-      // Add /en prefix
       navigate(`/en${currentPath}`);
     } else {
-      // Remove /en prefix
       const newPath = currentPath.replace(/^\/en/, "") || "/";
       navigate(newPath);
     }
