@@ -126,19 +126,16 @@ const Home = () => {
           <h2 className="text-3xl md:text-4xl font-serif font-semibold text-foreground text-center mb-16">
             {h.expertiseTitle}
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8">
-            {h.expertiseColumns.map((col) => (
-              <div key={col.title}>
-                <h3 className="text-xl font-serif font-semibold text-foreground mb-5">{col.title}</h3>
-                <ul className="space-y-3">
-                  {col.items.map((item) => (
-                    <li key={item} className="flex items-start gap-3 text-muted-foreground">
-                      <span className="w-1.5 h-1.5 rounded-full bg-accent flex-shrink-0 mt-2" />
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8 max-w-3xl mx-auto">
+            {h.expertiseColumns.map((col, i) => (
+              <ul key={i} className="space-y-3">
+                {col.map((item) => (
+                  <li key={item} className="flex items-start gap-3 text-muted-foreground">
+                    <span className="w-1.5 h-1.5 rounded-full bg-accent flex-shrink-0 mt-2" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
             ))}
           </div>
         </div>
