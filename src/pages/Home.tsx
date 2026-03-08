@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { useLanguage } from "@/i18n/LanguageContext";
 import danielaPhoto from "@/assets/daniela_hero.png";
 import kristynaPhoto from "@/assets/kristyna_kolcavova.png";
