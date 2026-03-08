@@ -24,16 +24,45 @@ const Home = () => {
   return (
     <div>
       {/* Hero */}
-      <section className="relative min-h-[90vh] flex items-end md:items-center overflow-hidden">
+      <section className="relative min-h-[90vh] flex flex-col md:flex-row overflow-hidden">
+        {/* Mobile: photo top half, text bottom half */}
+        <div className="relative h-[45vh] md:hidden overflow-hidden">
+          <img
+            src={danielaPhoto}
+            alt="Daniela Sedloňová – leadership kouč"
+            className="absolute inset-0 w-full h-full object-cover object-[25%_top]"
+          />
+        </div>
+        {/* Desktop: full background photo */}
         <img
           src={danielaPhoto}
           alt="Daniela Sedloňová – leadership kouč"
-          className="absolute inset-0 w-full h-full object-cover object-[25%_top] md:object-left-top"
+          className="hidden md:block absolute inset-0 w-full h-full object-cover object-left-top"
         />
-        <div className="absolute inset-0 backdrop-blur-md [mask-image:linear-gradient(to_top,black_40%,transparent_70%)] md:[mask-image:linear-gradient(to_right,transparent_45%,black_70%)]" />
-        <div className="absolute inset-0 bg-gradient-to-t from-background from-[15%] via-background/80 via-[35%] to-transparent to-[65%] md:bg-gradient-to-r md:from-transparent md:from-[40%] md:to-background/90 md:to-[75%]" />
-        <div className="relative z-10 container max-w-6xl pb-16 md:pb-0">
-          <div className="ml-auto w-full md:w-[38%] md:pr-4">
+        <div className="hidden md:block absolute inset-0 backdrop-blur-md [mask-image:linear-gradient(to_right,transparent_45%,black_70%)]" />
+        <div className="hidden md:block absolute inset-0 bg-gradient-to-r from-transparent from-[40%] to-background/90 to-[75%]" />
+        {/* Mobile text section */}
+        <div className="md:hidden bg-background px-6 py-10 flex-1 flex items-start">
+          <div>
+            <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-6 animate-fade-in">
+              {h.heroTag}
+            </p>
+            <h1 className="text-4xl font-serif font-semibold text-foreground leading-tight mb-8 animate-fade-in" style={{ animationDelay: "0.1s" }}>
+              {h.heroTitle1}<br />{h.heroTitle2}
+            </h1>
+            <p className="text-lg text-muted-foreground leading-relaxed mb-12 animate-fade-in" style={{ animationDelay: "0.2s" }}>
+              {h.heroDesc}
+            </p>
+            <div className="animate-fade-in" style={{ animationDelay: "0.3s" }}>
+              <Button size="lg" asChild>
+                <a href="https://calendly.com/danielasedlonova/konzultace" target="_blank" rel="noopener noreferrer">{h.heroCta}</a>
+              </Button>
+            </div>
+          </div>
+        </div>
+        {/* Desktop text */}
+        <div className="hidden md:flex relative z-10 container max-w-6xl items-center min-h-[90vh]">
+          <div className="ml-auto w-[38%] pr-4">
             <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-6 animate-fade-in">
               {h.heroTag}
             </p>
