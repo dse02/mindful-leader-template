@@ -126,7 +126,7 @@ export const translations = {
     },
     otevreneWorkshopy: {
       heroTag: "Pro jednotlivce",
-      heroTitle: "Otevřené leadership workshopy",
+      heroTitle: "Otevřené kurzy pro veřejnost",
       heroDesc: "Tříhodinové praktické workshopy v malé skupině zaměřené na rozhovory, které rozhodují v leadershipu i životě.",
       workshops: [
         { title: "Hluboké rozhovory", description: "Workshop zaměřený na umění vést rozhovory, které vytvářejí skutečné porozumění a důvěru." },
@@ -292,7 +292,7 @@ export const translations = {
     },
     otevreneWorkshopy: {
       heroTag: "For Individuals",
-      heroTitle: "Open leadership workshops",
+      heroTitle: "Open courses for the public",
       heroDesc: "Three-hour practical workshops in small groups focused on conversations that matter in leadership and life.",
       workshops: [
         { title: "Deep conversations", description: "A workshop focused on the art of leading conversations that create genuine understanding and trust." },
