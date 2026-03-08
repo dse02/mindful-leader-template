@@ -109,7 +109,7 @@ export const translations = {
       offerTag: "Nabídka",
       offerTitle: "Formáty spolupráce",
       single: "Jednorázově",
-      singleTitle: "Single session",
+      singleTitle: "Jedno setkání",
       singleTime: "90 minut",
       singlePrice: "6 000 Kč",
       package: "Balíček",
