@@ -29,30 +29,22 @@ export const translations = {
       expertiseTag: "Expertíza",
       expertiseTitle: "Leadership, komunikace, multikulturní spolupráce.",
       expertiseColumns: [
-        {
-          title: "Leadership",
-          items: [
-            "Autentický leadership",
-            "Vedení multikulturních týmů",
-            "Delegování a\u00A0provození proaktivity",
-            "Leadership zaměřený na řešení",
-          ],
-        },
-        {
-          title: "Komunikace",
-          items: [
-            "Síla otázek",
-            "Efektivní komunikace a\u00A0propojení týmů",
-            "Náročné rozhovory",
-            "Zpětná vazba",
-          ],
-        },
-        {
-          title: "Multikulturní spolupráce",
-          items: [
-            "The Culture Map",
-          ],
-        },
+        [
+          "Autentický leadership",
+          "Delegování a\u00A0motivace",
+          "Leadership zaměřený na řešení",
+        ],
+        [
+          "Efektivní komunikace",
+          "Náročné rozhovory",
+          "Zpětná vazba",
+          "Emoce a\u00A0deeskalace",
+        ],
+        [
+          "Vedení multikulturních týmů",
+          "Komunikace napříč kulturami",
+          "Multikulturní spolupráce",
+        ],
       ],
       aboutTag: "O mně",
       aboutTitle: "Daniela Sedloňová",
@@ -214,30 +206,22 @@ export const translations = {
       expertiseTag: "Expertise",
       expertiseTitle: "Leadership, communication, multicultural collaboration.",
       expertiseColumns: [
-        {
-          title: "Leadership",
-          items: [
-            "Authentic leadership",
-            "Leading multicultural teams",
-            "Delegation & fostering proactivity",
-            "Solution-focused leadership",
-          ],
-        },
-        {
-          title: "Communication",
-          items: [
-            "The power of questions",
-            "Effective communication & team alignment",
-            "Difficult conversations",
-            "Feedback",
-          ],
-        },
-        {
-          title: "Multicultural collaboration",
-          items: [
-            "The Culture Map",
-          ],
-        },
+        [
+          "Authentic leadership",
+          "Delegation & motivation",
+          "Solution-focused leadership",
+        ],
+        [
+          "Effective communication",
+          "Difficult conversations",
+          "Feedback",
+          "Emotions & de-escalation",
+        ],
+        [
+          "Leading multicultural teams",
+          "Cross-cultural communication",
+          "Multicultural collaboration",
+        ],
       ],
       aboutTag: "About",
       aboutTitle: "Daniela Sedloňová",
