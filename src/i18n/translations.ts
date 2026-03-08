@@ -104,7 +104,7 @@ export const translations = {
     },
     koucink: {
       heroTag: "Koučink",
-      heroTitle: "Individuální leadership koučink",
+      heroTitle: "Individuální koučink",
       heroDesc: "Strategická spolupráce pro podnikatele a lídry, kteří chtějí růst a dělat jasná rozhodnutí.",
       offerTag: "Nabídka",
       offerTitle: "Formáty spolupráce",
