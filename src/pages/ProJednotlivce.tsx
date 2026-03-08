@@ -48,10 +48,12 @@ const ProJednotlivce = () => {
       <section className="py-24 md:py-32">
         <div className="container max-w-4xl">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
-            <div className="order-2 md:order-1 bg-secondary border border-border p-10 flex items-center justify-center min-h-[280px]">
-              <p className="text-muted-foreground/50 font-sans text-sm tracking-wide uppercase">
-                {p.workshopsTag}
-              </p>
+            <div className="order-2 md:order-1 overflow-hidden min-h-[280px]">
+              <img
+                src={workshopWide}
+                alt="Workshop – společná práce ve skupině"
+                className="w-full h-full object-cover"
+              />
             </div>
             <div className="order-1 md:order-2">
               <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-4">{p.workshopsTag}</p>
