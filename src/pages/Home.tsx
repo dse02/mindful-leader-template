@@ -4,7 +4,7 @@ import danielaPhoto from "@/assets/daniela_hero.png";
 
 const themes = [
   "Leadership komunikace",
-  "Náročné rozhovory v týmu",
+  "Náročné rozhovory v\u00A0týmu",
   "Zvládání konfliktů",
   "Multikulturní spolupráce",
   "Rozhodování lídrů",
