@@ -142,7 +142,7 @@ export const translations = {
       success: "Zpráva byla odeslána. Děkuji!",
     },
     footer: {
-      desc: "Pomáhám lídrům, podnikatelům a firmám rozvíjet silnou komunikaci a budovat zdravou pracovní kulturu.",
+      desc: "Pomáhám lídrům, podnikatelům a firmám zvládat změny, rozvíjet komunikaci a efektivně vést v mezinárodním prostředí.",
       copyright: "Všechna práva vyhrazena.",
     },
   },
