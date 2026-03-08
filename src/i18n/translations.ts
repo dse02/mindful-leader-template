@@ -270,7 +270,7 @@ export const translations = {
     },
     koucink: {
       heroTag: "Coaching",
-      heroTitle: "Individual leadership coaching",
+      heroTitle: "Individual coaching",
       heroDesc: "Strategic collaboration for entrepreneurs and leaders who want to grow and make clear decisions.",
       offerTag: "Offer",
       offerTitle: "Collaboration formats",
