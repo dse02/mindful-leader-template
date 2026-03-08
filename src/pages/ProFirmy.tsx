@@ -63,14 +63,14 @@ const ProFirmy = () => {
           <h2 className="text-3xl md:text-4xl font-serif font-semibold text-foreground text-center mb-12">
             {p.topicsTitle}
           </h2>
-          <ul className="space-y-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4">
             {p.topics.map((topic) => (
-              <li key={topic} className="flex items-center gap-4 text-lg text-foreground">
+              <div key={topic} className="flex items-center gap-4 text-lg text-foreground">
                 <span className="w-2 h-2 rounded-full bg-accent flex-shrink-0" />
                 {topic}
-              </li>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
       </section>
 
