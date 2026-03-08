@@ -193,7 +193,7 @@ export const translations = {
       individualDesc: "For individuals, I offer open courses in small groups focused on practical communication and leadership skills. The offer also includes individual coaching for leaders and professionals who are going through change, want to grow, handle challenging situations, and lead conversations that truly matter.",
       individualBtn: "For Individuals",
       expertiseTag: "Expertise",
-      expertiseTitle: "Leadership is decided in conversations.",
+      expertiseTitle: "Leadership, communication, multicultural collaboration.",
       themes: [
         "Leadership communication",
         "Difficult team conversations",
