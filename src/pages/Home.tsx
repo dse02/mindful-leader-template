@@ -22,7 +22,7 @@ const Home = () => (
       <div className="absolute inset-0 backdrop-blur-md [mask-image:linear-gradient(to_right,transparent_45%,black_70%)]" />
       <div className="absolute inset-0 bg-gradient-to-r from-transparent from-[40%] to-background/90 to-[75%]" />
       <div className="relative z-10 container max-w-5xl">
-        <div className="ml-auto w-full md:w-1/2 md:pl-8">
+        <div className="ml-auto w-full md:w-[42%] md:pl-8">
           <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-6 animate-fade-in">
             Leadership · Komunikace · Multikulturní spolupráce
           </p>
