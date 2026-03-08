@@ -27,9 +27,10 @@ const ProFirmy = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             {p.workshops.map((w) => (
-              <div key={w.title} className="bg-background p-8 border border-border">
+              <div key={w.title} className="bg-background p-8 border border-border flex flex-col">
                 <h3 className="text-xl font-serif font-semibold text-foreground mb-3">{w.title}</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">{w.desc}</p>
+                <p className="text-muted-foreground text-sm leading-relaxed mb-4">{w.desc}</p>
+                <p className="text-accent font-semibold mt-auto">{w.price}</p>
               </div>
             ))}
           </div>
