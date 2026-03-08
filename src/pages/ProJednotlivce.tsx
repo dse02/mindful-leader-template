@@ -37,10 +37,12 @@ const ProJednotlivce = () => {
                 <Link to={localPath("/koucink")}>{p.coachingBtn}</Link>
               </Button>
             </div>
-            <div className="bg-background border border-border p-10 flex items-center justify-center min-h-[280px]">
-              <p className="text-muted-foreground/50 font-sans text-sm tracking-wide uppercase">
-                {p.coachingTag}
-              </p>
+            <div className="overflow-hidden min-h-[280px]">
+              <img
+                src={koucinkImg}
+                alt="Koučovací místnost – útulný prostor pro individuální setkání"
+                className="w-full h-full object-cover img-muted"
+              />
             </div>
           </div>
         </div>
