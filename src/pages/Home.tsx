@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import danielaPhoto from "@/assets/daniela_main.jpeg";
+import danielaPhoto from "@/assets/daniela_hero.png";
 
 const themes = [
   "Leadership komunikace",
