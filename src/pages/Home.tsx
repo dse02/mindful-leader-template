@@ -56,7 +56,7 @@ const Home = () => (
               Firemní workshopy & leadership koučink
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              Spolupracuji s firmami, které chtějí rozvíjet své lídry a posilovat komunikaci v týmech. Nabízím praktické workshopy zaměřené na leadership, náročné rozhovory a spolupráci v mezinárodním prostředí, stejně jako individuální koučování pro manažery a lídry.
+              Spolupracuji s{'\u00A0'}firmami, které chtějí rozvíjet své lídry a{'\u00A0'}posilovat komunikaci v{'\u00A0'}týmech. Nabízím praktické workshopy zaměřené na leadership, náročné rozhovory a{'\u00A0'}spolupráci v{'\u00A0'}mezinárodním prostředí, stejně jako individuální koučování pro manažery a{'\u00A0'}lídry.
             </p>
             <Button variant="outline" asChild>
               <Link to="/pro-firmy">Pro firmy</Link>
