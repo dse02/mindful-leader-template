@@ -328,6 +328,7 @@ export const translations = {
       pack12Price: "73 000 Kč",
       desc1: "Coaching sessions are deep strategic conversations focused on the real challenges you face as a leader.",
       desc2: "We work with your specific situations — decision-making, communication, people management, and personal mindset.",
+      priceNote: "* Prices listed are for coaching conducted in English.",
       ctaTitle: "Book an introductory consultation",
       ctaBtn: "Book a session",
     },
