@@ -2,7 +2,7 @@ import { createContext, useContext, useMemo } from "react";
 import { useParams, useNavigate, useLocation } from "react-router-dom";
 import { translations, Lang } from "./translations";
 
-type Translations = typeof translations.cs;
+type Translations = (typeof translations)[Lang];
 
 interface LanguageContextType {
   lang: Lang;
