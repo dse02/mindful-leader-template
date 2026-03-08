@@ -39,6 +39,8 @@ export const translations = {
       aboutTitle: "O mně",
       aboutDesc: "Pomáhám lídrům a\u00A0firmám rozvíjet komunikaci, která vytváří jasnost, důvěru a\u00A0výsledky. Ve své práci propojuji leadership rozvoj, praktické komunikační dovednosti a\u00A0zkušenosti z\u00A0práce s\u00A0mezinárodními týmy.",
       aboutBtn: "Více o mně",
+      clientsTag: "Reference",
+      clientsTitle: "Spolupracovala jsem s",
       ctaTitle: "Začněme rozhovor.",
       ctaDesc: "Každá spolupráce začíná úvodní konzultací.",
       ctaBtn: "Domluvit konzultaci",
