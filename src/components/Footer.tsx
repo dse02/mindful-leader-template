@@ -39,9 +39,10 @@ const Footer = () => {
               href="https://www.linkedin.com/in/danielasedlonova/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block mt-4 text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+              className="inline-flex items-center mt-6 text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+              aria-label="LinkedIn"
             >
-              LinkedIn
+              <Linkedin size={20} />
             </a>
             <p className="mt-8 text-sm text-primary-foreground/50">
               info@danielasedlonova.cz
