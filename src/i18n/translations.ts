@@ -214,7 +214,7 @@ export const translations = {
     },
     proFirmy: {
       heroTag: "For Companies",
-      heroTitle: "Corporate training & leadership development",
+      heroTitle: "Corporate training & leader development",
       heroDesc: "I help companies develop strong communication, manage conflicts, and strengthen team leadership.",
       formatsTag: "Formats",
       formatsTitle: "Workshop offerings",
