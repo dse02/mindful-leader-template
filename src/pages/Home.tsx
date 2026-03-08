@@ -46,7 +46,7 @@ const Home = () => (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 max-w-4xl mx-auto">
           <div className="space-y-5">
             <h3 className="text-2xl font-serif font-semibold text-foreground">
-              Firemní leadership workshopy
+              Firemní workshopy
             </h3>
             <p className="text-muted-foreground leading-relaxed">
               Praktické workshopy pro manažery a týmy zaměřené na komunikaci, řešení konfliktů a efektivní spolupráci v mezinárodním prostředí.
