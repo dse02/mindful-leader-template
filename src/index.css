@@ -90,3 +90,9 @@
     @apply font-serif;
   }
 }
+
+@layer utilities {
+  .img-muted {
+    filter: saturate(0.35) contrast(1.05);
+  }
+}

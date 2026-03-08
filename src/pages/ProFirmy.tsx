@@ -42,7 +42,7 @@ const ProFirmy = () => {
             <img
               src={workshopImg}
               alt="Skupinový workshop – práce v týmu u flipchartu"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover img-muted"
             />
           </div>
         </div>

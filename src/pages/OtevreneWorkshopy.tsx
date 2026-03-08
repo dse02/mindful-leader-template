@@ -24,7 +24,7 @@ const OtevreneWorkshopy = () => {
             <img
               src={workshopHero}
               alt="Workshop v akci – skupinová práce a diskuze"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover img-muted"
             />
           </div>
         </div>
