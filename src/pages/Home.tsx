@@ -122,7 +122,7 @@ const Home = () => (
           className="bg-primary-foreground text-primary hover:bg-primary-foreground/90"
           asChild
         >
-          <Link to="/kontakt">Domluvit konzultaci</Link>
+          <a href="https://calendly.com/danielasedlonova/konzultace" target="_blank" rel="noopener noreferrer">Domluvit konzultaci</a>
         </Button>
       </div>
     </section>
