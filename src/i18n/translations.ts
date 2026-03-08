@@ -248,9 +248,9 @@ export const translations = {
     proFirmy: {
       heroTag: "For Companies",
       heroTitle: "Corporate training & leader development",
-      heroDesc: "I help companies develop strong communication, manage conflicts, and strengthen team leadership.",
+      heroDesc: "I help leaders and teams create change. Improve communication, collaboration, and make strategic decisions.",
       formatsTag: "Formats",
-      formatsTitle: "Workshop & coaching offerings",
+      formatsTitle: "Workshop offerings",
       workshops: [
         { title: "90-minute lecture", desc: "Intensive lecture focused on a specific topic." },
         { title: "Half-day workshop", desc: "Practical workshop with space for discussion and exercises." },
