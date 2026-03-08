@@ -254,7 +254,7 @@ export const translations = {
       heroTitle: "For Individuals",
       heroDesc: "For leaders, entrepreneurs, and professionals who want to grow, navigate change, and lead tough conversations that truly decide.",
       coachingTag: "Coaching",
-      coachingTitle: "Individual leadership coaching",
+      coachingTitle: "Individual coaching",
       coachingDesc: "Strategic collaboration for leaders and entrepreneurs facing important decisions, dealing with challenging team situations, or wanting to grow to the next level of leadership.",
       coachingFormat: "Individual 90-minute sessions focused on specific situations from your practice.",
       coachingFormatLabel: "Format:",
