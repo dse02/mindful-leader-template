@@ -7,7 +7,7 @@ const Footer = () => {
   const links = [
     { to: "/", label: t.nav.home },
     { to: "/pro-firmy", label: t.nav.forCompanies },
-    { to: "/koucink", label: t.nav.coaching },
+    { to: "/pro-jednotlivce", label: t.nav.forIndividuals },
     { to: "/o-mne", label: t.nav.about },
     { to: "/kontakt", label: t.nav.contact },
   ];
