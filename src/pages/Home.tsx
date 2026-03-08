@@ -3,6 +3,9 @@ import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/i18n/LanguageContext";
 import danielaPhoto from "@/assets/daniela_hero.png";
 
+const testimonialPhotos: Record<string, string> = {
+};
+
 const Home = () => {
   const { t, localPath } = useLanguage();
   const h = t.home;
