@@ -119,21 +119,28 @@ const Home = () => {
 
       {/* Core expertise */}
       <section className="py-24 md:py-32">
-        <div className="container max-w-3xl">
+        <div className="container max-w-5xl">
           <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-4 text-center">
             {h.expertiseTag}
           </p>
-          <h2 className="text-3xl md:text-4xl font-serif font-semibold text-foreground text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-serif font-semibold text-foreground text-center mb-16">
             {h.expertiseTitle}
           </h2>
-          <ul className="space-y-4 max-w-md mx-auto">
-            {h.themes.map((theme) => (
-              <li key={theme} className="flex items-center gap-4 text-lg text-foreground">
-                <span className="w-2 h-2 rounded-full bg-accent flex-shrink-0" />
-                {theme}
-              </li>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8">
+            {h.expertiseColumns.map((col) => (
+              <div key={col.title}>
+                <h3 className="text-xl font-serif font-semibold text-foreground mb-5">{col.title}</h3>
+                <ul className="space-y-3">
+                  {col.items.map((item) => (
+                    <li key={item} className="flex items-start gap-3 text-muted-foreground">
+                      <span className="w-1.5 h-1.5 rounded-full bg-accent flex-shrink-0 mt-2" />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
       </section>
 

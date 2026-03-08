@@ -213,12 +213,31 @@ export const translations = {
       individualBtn: "For Individuals",
       expertiseTag: "Expertise",
       expertiseTitle: "Leadership, communication, multicultural collaboration.",
-      themes: [
-        "Leadership communication",
-        "Difficult team conversations",
-        "Conflict management",
-        "Multicultural collaboration",
-        "Leaders' decision-making",
+      expertiseColumns: [
+        {
+          title: "Leadership",
+          items: [
+            "Authentic leadership",
+            "Leading multicultural teams",
+            "Delegation & fostering proactivity",
+            "Solution-focused leadership",
+          ],
+        },
+        {
+          title: "Communication",
+          items: [
+            "The power of questions",
+            "Effective communication & team alignment",
+            "Difficult conversations",
+            "Feedback",
+          ],
+        },
+        {
+          title: "Multicultural collaboration",
+          items: [
+            "The Culture Map",
+          ],
+        },
       ],
       aboutTag: "About",
       aboutTitle: "Daniela Sedloňová",
