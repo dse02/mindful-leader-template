@@ -30,28 +30,8 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border/50">
       <div className="container flex items-center justify-between h-16 md:h-20">
-        <Link to="/" className="flex items-baseline gap-2 group relative">
-          <span className="relative">
-            <span className="text-2xl md:text-3xl font-serif italic font-semibold text-primary">
-              Daniela
-            </span>
-            <svg
-              className="absolute -bottom-1 left-0 w-[calc(100%+2rem)] h-3 text-primary/70"
-              viewBox="0 0 120 12"
-              fill="none"
-              preserveAspectRatio="none"
-            >
-              <path
-                d="M2 8 C30 2, 60 2, 118 6"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-              />
-            </svg>
-          </span>
-          <span className="text-xs md:text-sm font-sans font-medium tracking-[0.2em] uppercase text-primary">
-            Sedloňová
-          </span>
+        <Link to="/" className="font-serif text-xl md:text-2xl font-semibold text-primary tracking-tight">
+          Daniela Sedloňová
         </Link>
 
         {/* Desktop nav */}
