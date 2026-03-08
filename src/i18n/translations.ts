@@ -186,6 +186,8 @@ export const translations = {
       aboutTitle: "About me",
       aboutDesc: "I help leaders and companies develop communication that creates clarity, trust, and results. In my work, I combine leadership development, practical communication skills, and experience working with international teams.",
       aboutBtn: "More about me",
+      clientsTag: "References",
+      clientsTitle: "I've worked with",
       ctaTitle: "Let's start a conversation.",
       ctaDesc: "Every collaboration begins with an introductory consultation.",
       ctaBtn: "Book a consultation",
