@@ -37,8 +37,24 @@ const ProFirmy = () => {
         </div>
       </section>
 
-
       <section className="py-24 md:py-32">
+        <div className="container max-w-3xl">
+          <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-4 text-center">{p.topicsTag}</p>
+          <h2 className="text-3xl md:text-4xl font-serif font-semibold text-foreground text-center mb-12">
+            {p.topicsTitle}
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4">
+            {p.topics.map((topic) => (
+              <div key={topic} className="flex items-center gap-4 text-lg text-foreground">
+                <span className="w-2 h-2 rounded-full bg-accent flex-shrink-0" />
+                {topic}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-24 md:py-32 bg-secondary">
         <div className="container max-w-3xl">
           <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-4 text-center">{p.coachingTag}</p>
           <h2 className="text-3xl md:text-4xl font-serif font-semibold text-foreground text-center mb-8">
@@ -54,23 +70,6 @@ const ProFirmy = () => {
             <Button variant="outline" asChild>
               <Link to={localPath("/koucink")}>{p.coachingBtn}</Link>
             </Button>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-24 md:py-32">
-        <div className="container max-w-3xl">
-          <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-4 text-center">{p.topicsTag}</p>
-          <h2 className="text-3xl md:text-4xl font-serif font-semibold text-foreground text-center mb-12">
-            {p.topicsTitle}
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4">
-            {p.topics.map((topic) => (
-              <div key={topic} className="flex items-center gap-4 text-lg text-foreground">
-                <span className="w-2 h-2 rounded-full bg-accent flex-shrink-0" />
-                {topic}
-              </div>
-            ))}
           </div>
         </div>
       </section>
