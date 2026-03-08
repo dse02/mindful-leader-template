@@ -28,12 +28,31 @@ export const translations = {
       individualBtn: "Pro jednotlivce",
       expertiseTag: "Expertíza",
       expertiseTitle: "Leadership, komunikace, multikulturní spolupráce.",
-      themes: [
-        "Leadership komunikace",
-        "Náročné rozhovory v\u00A0týmu",
-        "Zvládání konfliktů",
-        "Multikulturní spolupráce",
-        "Rozhodování lídrů",
+      expertiseColumns: [
+        {
+          title: "Leadership",
+          items: [
+            "Autentický leadership",
+            "Vedení multikulturních týmů",
+            "Delegování a\u00A0provození proaktivity",
+            "Leadership zaměřený na řešení",
+          ],
+        },
+        {
+          title: "Komunikace",
+          items: [
+            "Síla otázek",
+            "Efektivní komunikace a\u00A0propojení týmů",
+            "Náročné rozhovory",
+            "Zpětná vazba",
+          ],
+        },
+        {
+          title: "Multikulturní spolupráce",
+          items: [
+            "The Culture Map",
+          ],
+        },
       ],
       aboutTag: "O mně",
       aboutTitle: "Daniela Sedloňová",
@@ -194,12 +213,31 @@ export const translations = {
       individualBtn: "For Individuals",
       expertiseTag: "Expertise",
       expertiseTitle: "Leadership, communication, multicultural collaboration.",
-      themes: [
-        "Leadership communication",
-        "Difficult team conversations",
-        "Conflict management",
-        "Multicultural collaboration",
-        "Leaders' decision-making",
+      expertiseColumns: [
+        {
+          title: "Leadership",
+          items: [
+            "Authentic leadership",
+            "Leading multicultural teams",
+            "Delegation & fostering proactivity",
+            "Solution-focused leadership",
+          ],
+        },
+        {
+          title: "Communication",
+          items: [
+            "The power of questions",
+            "Effective communication & team alignment",
+            "Difficult conversations",
+            "Feedback",
+          ],
+        },
+        {
+          title: "Multicultural collaboration",
+          items: [
+            "The Culture Map",
+          ],
+        },
       ],
       aboutTag: "About",
       aboutTitle: "Daniela Sedloňová",
