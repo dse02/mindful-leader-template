@@ -18,7 +18,7 @@ const Header = () => {
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border/50">
       <div className="container flex items-center justify-between h-16 md:h-20">
         <Link to="/" className="font-serif text-xl md:text-2xl font-semibold text-primary tracking-tight">
-          Leadership Coach
+          Daniela Sedloňová
         </Link>
 
         {/* Desktop nav */}
