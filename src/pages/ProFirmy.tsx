@@ -88,6 +88,54 @@ const ProFirmy = () => {
         </div>
       </section>
 
+      {/* Testimonials */}
+      <section className="py-24 md:py-32">
+        <div className="container max-w-5xl">
+          <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-4 text-center">
+            {h.testimonialsTag}
+          </p>
+          <h2 className="text-3xl md:text-4xl font-serif font-semibold text-foreground text-center mb-4">
+            {h.testimonialsTitle}
+          </h2>
+          <p className="text-muted-foreground text-center text-lg mb-16">
+            {h.testimonialsDesc}
+          </p>
+          <Carousel opts={{ align: "start", loop: true }} className="w-full">
+            <CarouselContent className="-ml-4">
+              {h.testimonials.map((item, i) => (
+                <CarouselItem key={i} className="pl-4 md:basis-1/2 lg:basis-1/3">
+                  <blockquote className="bg-secondary rounded-lg p-8 flex flex-col justify-between shadow-sm h-full">
+                    <p className="text-foreground leading-relaxed mb-6 italic text-[0.95rem]">
+                      „{item.quote}"
+                    </p>
+                    <footer className="flex items-center gap-3 text-sm text-muted-foreground">
+                      {item.photo ? (
+                        <img
+                          src={testimonialPhotos[item.photo]}
+                          alt={item.author}
+                          className="w-10 h-10 rounded-full object-cover flex-shrink-0"
+                        />
+                      ) : (
+                        <div className="w-10 h-10 rounded-full bg-muted flex-shrink-0" />
+                      )}
+                      <div>
+                        <span className="font-medium text-foreground">{item.author}</span>
+                        <br />
+                        {item.company}
+                      </div>
+                    </footer>
+                  </blockquote>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <div className="flex justify-center gap-4 mt-8">
+              <CarouselPrevious className="static translate-y-0" />
+              <CarouselNext className="static translate-y-0" />
+            </div>
+          </Carousel>
+        </div>
+      </section>
+
       <section className="py-24 md:py-32 bg-primary">
         <div className="container max-w-2xl text-center">
           <h2 className="text-3xl md:text-4xl font-serif font-semibold text-primary-foreground mb-6">
