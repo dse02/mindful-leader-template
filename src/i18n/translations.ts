@@ -77,6 +77,7 @@ export const translations = {
         { title: "Půldenní workshop", desc: "Praktický workshop s prostorem pro diskuzi a cvičení.", price: "od 29 000 Kč" },
         { title: "Celodenní workshop", desc: "Komplexní program s hloubkovým ponorem do tématu.", price: "od 48 000 Kč" },
       ],
+      workshopsPriceNote: "* Uvedené ceny jsou pro workshopy v\u00A0českém jazyce.",
       coachingTag: "Koučink",
       coachingTitle: "Executive koučink",
       coachingDesc: "Strategická spolupráce pro lídry a podnikatele, kteří stojí před důležitými rozhodnutími, řeší náročné situace v týmu nebo chtějí růst do další úrovně leadershipu.",
