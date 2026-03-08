@@ -174,7 +174,7 @@ export const translations = {
       forIndividuals: "For Individuals",
       overview: "Overview",
       coaching: "Individual Coaching",
-      workshops: "Open Workshops",
+      workshops: "Open Courses",
       about: "About",
       contact: "Contact",
     },
