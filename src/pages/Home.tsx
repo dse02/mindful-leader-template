@@ -57,7 +57,7 @@ const Home = () => (
           </div>
           <div className="space-y-5">
             <h3 className="text-2xl font-serif font-semibold text-foreground">
-              Individuální leadership koučink
+              Individuální koučink
             </h3>
             <p className="text-muted-foreground leading-relaxed">
               Strategické rozhovory pro lídry a podnikatele, kteří stojí před náročným rozhodnutím, konfliktem nebo změnou role.
