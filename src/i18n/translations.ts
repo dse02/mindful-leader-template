@@ -41,7 +41,7 @@ export const translations = {
       aboutBtn: "Více o mně",
       clientsTag: "Reference",
       clientsTitle: "Firmy, se kterými spolupracuji",
-      ctaTitle: "Začněme rozhovor.",
+      ctaTitle: "Pojďme se pobavit.",
       ctaDesc: "Každá spolupráce začíná úvodní konzultací.",
       ctaBtn: "Domluvit konzultaci",
     },
