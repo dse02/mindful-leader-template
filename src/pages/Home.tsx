@@ -140,6 +140,35 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Testimonials */}
+      <section className="py-24 md:py-32 bg-secondary">
+        <div className="container max-w-5xl">
+          <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-4 text-center">
+            {h.testimonialsTag}
+          </p>
+          <h2 className="text-3xl md:text-4xl font-serif font-semibold text-foreground text-center mb-4">
+            {h.testimonialsTitle}
+          </h2>
+          <p className="text-muted-foreground text-center text-lg mb-16">
+            {h.testimonialsDesc}
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {h.testimonials.map((t, i) => (
+              <blockquote key={i} className="bg-background rounded-lg p-8 flex flex-col justify-between shadow-sm">
+                <p className="text-foreground leading-relaxed mb-6 italic">
+                  „{t.quote}"
+                </p>
+                <footer className="text-sm text-muted-foreground">
+                  <span className="font-medium text-foreground">{t.author}</span>
+                  <br />
+                  {t.company}
+                </footer>
+              </blockquote>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-24 md:py-32 bg-primary">
         <div className="container max-w-2xl text-center">
