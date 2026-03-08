@@ -2,8 +2,10 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/i18n/LanguageContext";
 import danielaPhoto from "@/assets/daniela_hero.png";
+import kristynaPhoto from "@/assets/kristyna_kolcavova.png";
 
 const testimonialPhotos: Record<string, string> = {
+  kristyna_kolcavova: kristynaPhoto,
 };
 
 const Home = () => {
