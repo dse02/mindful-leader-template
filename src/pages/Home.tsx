@@ -112,6 +112,34 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Clients */}
+      <section className="py-24 md:py-32">
+        <div className="container">
+          <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-4 text-center">
+            {h.clientsTag}
+          </p>
+          <h2 className="text-3xl md:text-4xl font-serif font-semibold text-foreground text-center mb-16">
+            {h.clientsTitle}
+          </h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 md:gap-12 max-w-5xl mx-auto items-center justify-items-center">
+            {[
+              "Google", "L'Oréal", "Legrand", "WPP", "Česká spořitelna",
+              "Dentsu", "Livesport", "Siemens", "EON", "University of New York",
+              "UMPRUM", "Point One", "Struers", "Geometry"
+            ].map((name) => (
+              <div
+                key={name}
+                className="flex items-center justify-center h-16 px-4 text-muted-foreground/60 hover:text-foreground transition-colors duration-300"
+              >
+                <span className="text-sm md:text-base font-sans font-medium tracking-wide text-center leading-tight">
+                  {name}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-24 md:py-32 bg-primary">
         <div className="container max-w-2xl text-center">
