@@ -73,9 +73,9 @@ export const translations = {
       formatsTag: "Formáty",
       formatsTitle: "Nabídka workshopů",
       workshops: [
-        { title: "90 minut přednáška", desc: "Intenzivní přednáška zaměřená na konkrétní téma." },
-        { title: "Půldenní workshop", desc: "Praktický workshop s prostorem pro diskuzi a cvičení." },
-        { title: "Celodenní workshop", desc: "Komplexní program s hloubkovým ponorem do tématu." },
+        { title: "90 minut přednáška", desc: "Intenzivní přednáška zaměřená na konkrétní téma.", price: "od 19 000 Kč" },
+        { title: "Půldenní workshop", desc: "Praktický workshop s prostorem pro diskuzi a cvičení.", price: "od 29 000 Kč" },
+        { title: "Celodenní workshop", desc: "Komplexní program s hloubkovým ponorem do tématu.", price: "od 48 000 Kč" },
       ],
       coachingTag: "Koučink",
       coachingTitle: "Executive koučink",
