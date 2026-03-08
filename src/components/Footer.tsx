@@ -34,7 +34,7 @@ const Footer = () => (
         </div>
       </div>
       <div className="mt-16 pt-8 border-t border-primary-foreground/10 text-xs text-primary-foreground/40">
-        © {new Date().getFullYear()} Leadership Coach. Všechna práva vyhrazena.
+        © {new Date().getFullYear()} Daniela Sedloňová. Všechna práva vyhrazena.
       </div>
     </div>
   </footer>
