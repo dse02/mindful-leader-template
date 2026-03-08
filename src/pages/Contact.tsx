@@ -1,13 +1,16 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
+import { useLanguage } from "@/i18n/LanguageContext";
 
 const Contact = () => {
+  const { t } = useLanguage();
+  const c = t.contact;
   const [form, setForm] = useState({ name: "", email: "", message: "" });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    toast.success("Zpráva byla odeslána. Děkuji!");
+    toast.success(c.success);
     setForm({ name: "", email: "", message: "" });
   };
 
@@ -16,19 +19,19 @@ const Contact = () => {
       <section className="py-24 md:py-36">
         <div className="container max-w-xl">
           <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-6 text-center">
-            Kontakt
+            {c.tag}
           </p>
           <h1 className="text-4xl md:text-5xl font-serif font-semibold text-foreground leading-tight mb-6 text-center">
-            Spojme se
+            {c.title}
           </h1>
           <p className="text-muted-foreground text-center text-lg mb-14 leading-relaxed">
-            Pokud máte zájem o spolupráci, napište nebo si domluvte úvodní konzultaci.
+            {c.desc}
           </p>
 
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
               <label htmlFor="name" className="block text-sm font-sans font-medium text-foreground mb-2">
-                Jméno
+                {c.nameLabel}
               </label>
               <input
                 id="name"
@@ -37,12 +40,12 @@ const Contact = () => {
                 value={form.name}
                 onChange={(e) => setForm({ ...form, name: e.target.value })}
                 className="w-full border border-border bg-background px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-primary transition-colors"
-                placeholder="Vaše jméno"
+                placeholder={c.namePlaceholder}
               />
             </div>
             <div>
               <label htmlFor="email" className="block text-sm font-sans font-medium text-foreground mb-2">
-                Email
+                {c.emailLabel}
               </label>
               <input
                 id="email"
@@ -51,12 +54,12 @@ const Contact = () => {
                 value={form.email}
                 onChange={(e) => setForm({ ...form, email: e.target.value })}
                 className="w-full border border-border bg-background px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-primary transition-colors"
-                placeholder="vas@email.cz"
+                placeholder={c.emailPlaceholder}
               />
             </div>
             <div>
               <label htmlFor="message" className="block text-sm font-sans font-medium text-foreground mb-2">
-                Zpráva
+                {c.messageLabel}
               </label>
               <textarea
                 id="message"
@@ -65,11 +68,11 @@ const Contact = () => {
                 value={form.message}
                 onChange={(e) => setForm({ ...form, message: e.target.value })}
                 className="w-full border border-border bg-background px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-primary transition-colors resize-none"
-                placeholder="Vaše zpráva..."
+                placeholder={c.messagePlaceholder}
               />
             </div>
             <Button type="submit" size="lg" className="w-full">
-              Odeslat
+              {c.submit}
             </Button>
           </form>
         </div>
