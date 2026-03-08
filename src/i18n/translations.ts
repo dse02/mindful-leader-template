@@ -27,7 +27,7 @@ export const translations = {
       individualDesc: "Pro jednotlivce nabízím otevřené kurzy v\u00A0malé skupině zaměřené na praktické komunikační a\u00A0leadership dovednosti. Součástí nabídky je také individuální koučink pro lídry a\u00A0profesionály, kteří procházejí změnou, chtějí růst, zvládat náročné situace a\u00A0vést rozhovory, které opravdu rozhodují.",
       individualBtn: "Pro jednotlivce",
       expertiseTag: "Expertíza",
-      expertiseTitle: "Leadership se rozhoduje v\u00A0rozhovorech.",
+      expertiseTitle: "Leadership, komunikace, multikulturní spolupráce.",
       themes: [
         "Leadership komunikace",
         "Náročné rozhovory v\u00A0týmu",
@@ -193,7 +193,7 @@ export const translations = {
       individualDesc: "For individuals, I offer open courses in small groups focused on practical communication and leadership skills. The offer also includes individual coaching for leaders and professionals who are going through change, want to grow, handle challenging situations, and lead conversations that truly matter.",
       individualBtn: "For Individuals",
       expertiseTag: "Expertise",
-      expertiseTitle: "Leadership is decided in conversations.",
+      expertiseTitle: "Leadership, communication, multicultural collaboration.",
       themes: [
         "Leadership communication",
         "Difficult team conversations",
