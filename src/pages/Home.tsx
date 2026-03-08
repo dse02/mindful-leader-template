@@ -30,7 +30,7 @@ const Home = () => (
             Rozhovory, které rozhodují.
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-12 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            Pomáhám lídrům a firmám vést s jasností, zvládat konflikty a budovat silné týmy – i v mezinárodním prostředí.
+            Pomáhám lídrům a firmám vést s jasností, zvládat konflikty a budovat silné týmy v mezinárodním prostředí.
           </p>
           <div className="animate-fade-in" style={{ animationDelay: "0.3s" }}>
             <Button size="lg" asChild>
