@@ -264,6 +264,7 @@ export const translations = {
         { title: "Half-day workshop", desc: "Practical workshop with space for discussion and exercises.", price: "from 36 250 CZK" },
         { title: "Full-day workshop", desc: "Comprehensive program with a deep dive into the topic.", price: "from 60 000 CZK" },
       ],
+      workshopsPriceNote: "* Prices listed are for workshops conducted in English.",
       coachingTag: "Coaching",
       coachingTitle: "Executive coaching",
       coachingDesc: "Strategic partnership for leaders and entrepreneurs facing important decisions, navigating challenging team situations, or looking to grow into the next level of leadership.",
