@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/i18n/LanguageContext";
+import workshopHero from "@/assets/workshop_dsc.jpg";
 
 const OtevreneWorkshopy = () => {
   const { t } = useLanguage();
@@ -14,6 +15,18 @@ const OtevreneWorkshopy = () => {
             {o.heroTitle}
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">{o.heroDesc}</p>
+        </div>
+      </section>
+
+      <section className="py-0 pb-24">
+        <div className="container max-w-4xl">
+          <div className="aspect-[16/9] overflow-hidden">
+            <img
+              src={workshopHero}
+              alt="Workshop v akci – skupinová práce a diskuze"
+              className="w-full h-full object-cover"
+            />
+          </div>
         </div>
       </section>
 
