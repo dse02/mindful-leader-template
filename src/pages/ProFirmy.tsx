@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/i18n/LanguageContext";
+import workshopImg from "@/assets/workshop_group.jpeg";
 
 const ProFirmy = () => {
   const { t, localPath } = useLanguage();
