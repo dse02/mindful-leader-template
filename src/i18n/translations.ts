@@ -126,7 +126,7 @@ export const translations = {
     },
     otevreneWorkshopy: {
       heroTag: "Pro jednotlivce",
-      heroTitle: "Otevřené leadership workshopy",
+      heroTitle: "Otevřené kurzy pro veřejnost",
       heroDesc: "Tříhodinové praktické workshopy v malé skupině zaměřené na rozhovory, které rozhodují v leadershipu i životě.",
       workshops: [
         { title: "Hluboké rozhovory", description: "Workshop zaměřený na umění vést rozhovory, které vytvářejí skutečné porozumění a důvěru." },
