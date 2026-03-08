@@ -143,7 +143,7 @@ export const translations = {
     about: {
       tag: "O mně",
       title: "O mně",
-      p1: "Jsem leadership kouč a firemní trenér zaměřený na komunikaci, kulturu a mindset.",
+      p1: "Jsem kouč a firemní trenér se zaměřením na komunikaci, leadership a multikulturní spolupráci.",
       p2: "Mám zkušenosti s prací s lídry a mezinárodními týmy. Pomáhám lidem nacházet jasnost v rozhodování, budovat silné vztahy v týmech a rozvíjet svůj leadership autentickým způsobem.",
       p3: "Ve své práci propojuji strategické myšlení s praktickými nástroji pro každodenní vedení lidí.",
       cta: "Spojme se",
@@ -309,7 +309,7 @@ export const translations = {
     about: {
       tag: "About",
       title: "About me",
-      p1: "I am a leadership coach and corporate trainer focused on communication, culture, and mindset.",
+      p1: "I am a coach and corporate trainer focused on communication, leadership, and multicultural collaboration.",
       p2: "I have experience working with leaders and international teams. I help people find clarity in decision-making, build strong team relationships, and develop their leadership in an authentic way.",
       p3: "In my work, I combine strategic thinking with practical tools for everyday people management.",
       cta: "Let's connect",
