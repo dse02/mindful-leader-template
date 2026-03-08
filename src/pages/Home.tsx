@@ -28,12 +28,12 @@ const Home = () => {
         <img
           src={danielaPhoto}
           alt="Daniela Sedloňová – leadership kouč"
-          className="absolute inset-0 w-full h-full object-cover object-left-top"
+          className="absolute inset-0 w-full h-full object-cover object-[25%_top] md:object-left-top"
         />
-        <div className="absolute inset-0 backdrop-blur-md [mask-image:linear-gradient(to_right,transparent_45%,black_70%)]" />
-        <div className="absolute inset-0 bg-gradient-to-r from-transparent from-[40%] to-background/90 to-[75%]" />
-        <div className="relative z-10 container max-w-5xl">
-          <div className="ml-auto w-full md:w-[42%] md:pl-8">
+        <div className="absolute inset-0 backdrop-blur-md [mask-image:linear-gradient(to_top,black_30%,transparent_60%)] md:[mask-image:linear-gradient(to_right,transparent_45%,black_70%)]" />
+        <div className="absolute inset-0 bg-gradient-to-t from-background/90 from-[20%] to-transparent to-[60%] md:bg-gradient-to-r md:from-transparent md:from-[40%] md:to-background/90 md:to-[75%]" />
+        <div className="relative z-10 container max-w-6xl">
+          <div className="ml-auto w-full md:w-[38%] md:pr-4">
             <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-6 animate-fade-in">
               {h.heroTag}
             </p>
