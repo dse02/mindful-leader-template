@@ -269,7 +269,7 @@ export const translations = {
       coachingFormatLabel: "Format:",
       coachingBtn: "Learn more about coaching",
       topicsTag: "Topics",
-      topicsTitle: "Topics we address",
+      topicsTitle: "Common topics include",
       topics: [
         "Leadership",
         "Conflict management",
