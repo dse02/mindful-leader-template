@@ -14,14 +14,19 @@ const Home = () => (
   <div>
     {/* Hero */}
     <section className="relative min-h-[90vh] flex items-center overflow-hidden">
-      <img
-        src={danielaPhoto}
-        alt="Daniela Sedloňová – leadership kouč"
-        className="absolute inset-0 w-full h-full object-cover object-left-top"
-      />
-      <div className="absolute inset-0 bg-gradient-to-r from-transparent via-background/50 via-40% to-background/95" />
+      <div className="absolute inset-0 grid grid-cols-2">
+        <div className="relative">
+          <img
+            src={danielaPhoto}
+            alt="Daniela Sedloňová – leadership kouč"
+            className="absolute inset-0 w-full h-full object-cover object-top"
+          />
+        </div>
+        <div className="bg-background" />
+      </div>
+      <div className="absolute inset-0 bg-gradient-to-r from-transparent via-transparent via-35% to-background from-45%" />
       <div className="relative z-10 container max-w-5xl">
-        <div className="ml-auto max-w-lg md:max-w-xl text-right">
+        <div className="ml-auto w-1/2 pl-12 text-left">
           <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-6 animate-fade-in">
             Leadership · Komunikace · Multikulturní spolupráce
           </p>
