@@ -3,6 +3,9 @@ import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/i18n/LanguageContext";
 import danielaPhoto from "@/assets/daniela_hero.png";
 
+const testimonialPhotos: Record<string, string> = {
+};
+
 const Home = () => {
   const { t, localPath } = useLanguage();
   const h = t.home;
@@ -155,13 +158,24 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {h.testimonials.map((t, i) => (
               <blockquote key={i} className="bg-background rounded-lg p-8 flex flex-col justify-between shadow-sm">
-                <p className="text-foreground leading-relaxed mb-6 italic">
+                <p className="text-foreground leading-relaxed mb-6 italic text-[0.95rem]">
                   „{t.quote}"
                 </p>
-                <footer className="text-sm text-muted-foreground">
-                  <span className="font-medium text-foreground">{t.author}</span>
-                  <br />
-                  {t.company}
+                <footer className="flex items-center gap-3 text-sm text-muted-foreground">
+                  {t.photo ? (
+                    <img
+                      src={testimonialPhotos[t.photo]}
+                      alt={t.author}
+                      className="w-10 h-10 rounded-full object-cover flex-shrink-0"
+                    />
+                  ) : (
+                    <div className="w-10 h-10 rounded-full bg-muted flex-shrink-0" />
+                  )}
+                  <div>
+                    <span className="font-medium text-foreground">{t.author}</span>
+                    <br />
+                    {t.company}
+                  </div>
                 </footer>
               </blockquote>
             ))}
