@@ -84,7 +84,7 @@ const Home = () => (
           Expertíza
         </p>
         <h2 className="text-3xl md:text-4xl font-serif font-semibold text-foreground text-center mb-12">
-          Leadership se rozhoduje v rozhovorech.
+          Leadership se rozhoduje v{'\u00A0'}rozhovorech.
         </h2>
         <ul className="space-y-4 max-w-md mx-auto">
           {themes.map((t) => (
