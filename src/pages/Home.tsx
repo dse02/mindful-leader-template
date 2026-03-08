@@ -53,7 +53,7 @@ const Home = () => (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 max-w-4xl mx-auto">
           <div className="space-y-5">
             <h3 className="text-2xl font-serif font-semibold text-foreground">
-              Firemní workshopy & leadership koučink
+              Firemní workshopy & executive koučink
             </h3>
             <p className="text-muted-foreground leading-relaxed">
               Spolupracuji s{'\u00A0'}firmami, které chtějí rozvíjet své lídry a{'\u00A0'}posilovat komunikaci v{'\u00A0'}týmech. Nabízím praktické workshopy zaměřené na leadership, náročné rozhovory a{'\u00A0'}spolupráci v{'\u00A0'}mezinárodním prostředí, stejně jako individuální koučování pro manažery a{'\u00A0'}lídry.
