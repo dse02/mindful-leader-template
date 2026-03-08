@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/i18n/LanguageContext";
+import danielaAbout from "@/assets/daniela_about.jpg";
 
 const About = () => {
   const { t, localPath } = useLanguage();
