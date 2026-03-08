@@ -284,7 +284,7 @@ export const translations = {
       pack6Price: "40 500 Kč",
       pack12Title: "6-month collaboration",
       pack12Desc: "12× 90 minutes",
-      pack12Price: "72 875 Kč",
+      pack12Price: "73 000 Kč",
       desc1: "Coaching sessions are deep strategic conversations focused on the real challenges you face as a leader.",
       desc2: "We work with your specific situations — decision-making, communication, people management, and personal mindset.",
       ctaTitle: "Book an introductory consultation",
