@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import danielaPhoto from "@/assets/daniela_main.jpeg";
 
 const themes = [
   "Leadership komunikace",
@@ -13,23 +14,34 @@ const Home = () => (
   <div>
     {/* Hero */}
     <section className="py-24 md:py-36">
-      <div className="container max-w-3xl text-center">
-        <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-6 animate-fade-in">
-          Leadership · Komunikace · Multikulturní spolupráce
-        </p>
-        <h1 className="text-4xl md:text-6xl font-serif font-semibold text-foreground leading-tight mb-8 animate-fade-in" style={{ animationDelay: "0.1s" }}>
-          Rozhovory, které rozhodují.
-        </h1>
-        <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-12 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-          Pomáhám lídrům a firmám vést s jasností, zvládat konflikty a budovat silné týmy – i v mezinárodním prostředí.
-        </p>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in" style={{ animationDelay: "0.3s" }}>
-          <Button size="lg" asChild>
-            <a href="https://calendly.com/danielasedlonova/konzultace" target="_blank" rel="noopener noreferrer">Domluvit úvodní konzultaci</a>
-          </Button>
-          <Button variant="outline" size="lg" asChild>
-            <Link to="/pro-firmy">Pro firmy</Link>
-          </Button>
+      <div className="container max-w-5xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
+          <div className="order-2 md:order-1">
+            <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-6 animate-fade-in">
+              Leadership · Komunikace · Multikulturní spolupráce
+            </p>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-semibold text-foreground leading-tight mb-8 animate-fade-in" style={{ animationDelay: "0.1s" }}>
+              Rozhovory, které rozhodují.
+            </h1>
+            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-12 animate-fade-in" style={{ animationDelay: "0.2s" }}>
+              Pomáhám lídrům a firmám vést s jasností, zvládat konflikty a budovat silné týmy – i v mezinárodním prostředí.
+            </p>
+            <div className="flex flex-col sm:flex-row items-center gap-4 animate-fade-in" style={{ animationDelay: "0.3s" }}>
+              <Button size="lg" asChild>
+                <a href="https://calendly.com/danielasedlonova/konzultace" target="_blank" rel="noopener noreferrer">Domluvit úvodní konzultaci</a>
+              </Button>
+              <Button variant="outline" size="lg" asChild>
+                <Link to="/pro-firmy">Pro firmy</Link>
+              </Button>
+            </div>
+          </div>
+          <div className="order-1 md:order-2 flex justify-center animate-fade-in" style={{ animationDelay: "0.15s" }}>
+            <img
+              src={danielaPhoto}
+              alt="Daniela Sedloňová – leadership kouč"
+              className="w-full max-w-sm aspect-[3/4] object-cover object-top rounded-sm"
+            />
+          </div>
         </div>
       </div>
     </section>
