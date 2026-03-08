@@ -17,7 +17,7 @@ const Home = () => (
       <img
         src={danielaPhoto}
         alt="Daniela Sedloňová – leadership kouč"
-        className="absolute inset-0 w-full h-full object-cover object-[20%_top]"
+        className="absolute inset-0 w-full h-full object-cover object-[30%_top]"
       />
       <div className="absolute inset-0 backdrop-blur-md [mask-image:linear-gradient(to_right,transparent_40%,black_65%)]" />
       <div className="absolute inset-0 bg-gradient-to-r from-transparent from-[35%] to-background/85 to-[70%]" />
