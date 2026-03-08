@@ -107,7 +107,7 @@ const Home = () => (
           O mně
         </h2>
         <p className="text-muted-foreground leading-relaxed text-lg mb-10">
-          Pomáhám lídrům a firmám rozvíjet komunikaci, která vytváří jasnost, důvěru a výsledky. Ve své práci propojuji leadership rozvoj, praktické komunikační dovednosti a zkušenosti z práce s mezinárodními týmy.
+          Pomáhám lídrům a{'\u00A0'}firmám rozvíjet komunikaci, která vytváří jasnost, důvěru a{'\u00A0'}výsledky. Ve své práci propojuji leadership rozvoj, praktické komunikační dovednosti a{'\u00A0'}zkušenosti z{'\u00A0'}práce s{'\u00A0'}mezinárodními týmy.
         </p>
         <Button variant="outline" asChild>
           <Link to="/o-mne">Více o mně</Link>
