@@ -18,17 +18,6 @@ const OtevreneWorkshopy = () => {
         </div>
       </section>
 
-      <section className="py-0 pb-24">
-        <div className="container max-w-4xl">
-          <div className="aspect-[16/9] overflow-hidden">
-            <img
-              src={workshopHero}
-              alt="Workshop v akci – skupinová práce a diskuze"
-              className="w-full h-full object-cover img-muted"
-            />
-          </div>
-        </div>
-      </section>
 
       <section className="py-24 md:py-32 bg-secondary">
         <div className="container max-w-4xl">
