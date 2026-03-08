@@ -46,7 +46,7 @@ export const translations = {
       testimonialsDesc: "Reálné ohlasy od ředitelů, HR manažerů i jednotlivců.",
       testimonials: [
         { quote: "I had the pleasure of working with Daniela over the past three months, and I am incredibly grateful for her guidance. She supported me through challenging times, helping me see situations from different perspectives, which greatly improved my confidence in pursuing my own ideas, also connected to decision making. Daniela is a fantastic listener who truly sees the person behind the challenges.", author: "Anna Behler", company: "General Manager Czech Republic, Legrand", photo: "anna_behler" },
-        { quote: "Daniela nám pomohla zásadně zlepšit komunikaci v managementu. Praktický přístup a okamžité výsledky.", author: "HR Director", company: "Mezinárodní technologická firma", photo: "" },
+        { quote: "Daniela je velmi profesionální lektorka, svým charismatickým a lidským přístupem si dokáže výborně získat všechny účastníky. Její pojetí je originální. Jde do hloubky, nebojí se improvizovat a nabídnout účastníkům kurzu přesně to, co potřebují a co je posouvá dál. Umí pojmenovat rezervy a připravit takové nástroje, díky kterým nezůstane jen u aha efektu, ale lidé, kteří prošli jejími kurzy si jednoduše nabyté poznatky odnášejí do praxe a tam je uplatňují.", author: "Kristýna Kolčavová", company: "Chief Operating Officer, WML", photo: "kristyna_kolcavova" },
         { quote: "Workshop o náročných rozhovorech byl nejpraktičtější školení, které jsem kdy absolvoval. Hned jsem začal aplikovat.", author: "Senior manažer", company: "Korporátní prostředí", photo: "" },
       ],
       ctaTitle: "Pojďme se pobavit.",
@@ -201,7 +201,7 @@ export const translations = {
       testimonialsDesc: "Real feedback from directors, HR managers, and individuals.",
       testimonials: [
         { quote: "I had the pleasure of working with Daniela over the past three months, and I am incredibly grateful for her guidance. She supported me through challenging times, helping me see situations from different perspectives, which greatly improved my confidence in pursuing my own ideas, also connected to decision making. Daniela is a fantastic listener who truly sees the person behind the challenges.", author: "Anna Behler", company: "General Manager Czech Republic, Legrand", photo: "anna_behler" },
-        { quote: "Daniela helped us fundamentally improve communication in management. A practical approach with immediate results.", author: "HR Director", company: "International tech company", photo: "" },
+        { quote: "Daniela is a very professional trainer who, with her charismatic and human approach, excellently engages all participants. Her approach is original — she goes deep, isn't afraid to improvise, and offers participants exactly what they need to move forward. She can identify gaps and prepare tools that go beyond just an 'aha' moment — people who have taken her courses simply apply what they've learned in practice.", author: "Kristýna Kolčavová", company: "Chief Operating Officer, WML", photo: "kristyna_kolcavova" },
         { quote: "The difficult conversations workshop was the most practical training I've ever attended. I started applying it immediately.", author: "Senior Manager", company: "Corporate environment", photo: "" },
       ],
       ctaTitle: "Let's start a conversation.",
