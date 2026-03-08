@@ -1,7 +1,21 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { useLanguage } from "@/i18n/LanguageContext";
 import workshopImg from "@/assets/workshop_group.jpeg";
+import kristynaPhoto from "@/assets/kristyna_kolcavova.png";
+import annaPhoto from "@/assets/anna_behler.png";
+import gabrielaPhoto from "@/assets/gabriela_simsova.png";
+import matyasPhoto from "@/assets/matyas_drevo.png";
+import martinPhoto from "@/assets/martin_belan.png";
+
+const testimonialPhotos: Record<string, string> = {
+  kristyna_kolcavova: kristynaPhoto,
+  anna_behler: annaPhoto,
+  gabriela_simsova: gabrielaPhoto,
+  matyas_drevo: matyasPhoto,
+  martin_belan: martinPhoto,
+};
 
 const ProFirmy = () => {
   const { t, localPath } = useLanguage();
