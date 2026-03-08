@@ -282,6 +282,7 @@ export const translations = {
         "Assertiveness",
         "Motivation & proactivity",
         "Leading multicultural teams",
+        "Feedback",
       ],
       ctaTitle: "Let's have a conversation.",
       ctaBtn: "Contact",
