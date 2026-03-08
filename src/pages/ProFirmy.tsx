@@ -55,7 +55,7 @@ const ProFirmy = () => {
         </div>
       </section>
 
-      <section className="py-24 md:py-32 bg-secondary">
+      <section className="py-24 md:py-32">
         <div className="container">
           <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-4 text-center">{p.formatsTag}</p>
           <h2 className="text-3xl md:text-4xl font-serif font-semibold text-foreground text-center mb-16">
