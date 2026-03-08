@@ -62,7 +62,7 @@ const Home = () => {
         </div>
         {/* Desktop text */}
         <div className="hidden md:flex relative z-10 container max-w-6xl items-center min-h-[90vh]">
-          <div className="ml-auto w-[38%] pr-4">
+          <div className="ml-auto w-[35%] pr-4">
             <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-6 animate-fade-in">
               {h.heroTag}
             </p>
