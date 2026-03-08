@@ -68,8 +68,19 @@ export const translations = {
     },
     proFirmy: {
       heroTag: "Pro firmy",
-      heroTitle: "Firemní vzdělávání a rozvoj lídrů",
-      heroDesc: "Pomáhám lídrům a\u00A0týmům tvořit změnu. Zlepšit komunikaci, spolupráci a\u00A0činit strategická rozhodnutí.",
+      heroTitle: "Rozhovory, které rozhodují ve vedení týmů",
+      heroDesc: "Pomáhám firmám rozvíjet lídry, kteří vedou s\u00A0jasností, zvládají konflikty a\u00A0vytvářejí prostředí důvěry a\u00A0spolupráce i\u00A0v\u00A0mezinárodních týmech.",
+      heroCta: "Domluvit konzultaci",
+      challengesTag: "Výzvy",
+      challengesTitle: "Výzvy, se kterými lídři často přicházejí",
+      challenges: [
+        "Obtížné rozhovory",
+        "Konflikty mezi lidmi nebo odděleními",
+        "Nejistota při vedení lidí",
+        "Spolupráce v multikulturním prostředí",
+        "Nedostatečná komunikace",
+      ],
+      challengesOutro: "Tyto situace řešíme prakticky — skrze konkrétní rozhovory a\u00A0reálné situace z\u00A0vaší firmy.",
       formatsTag: "Formáty",
       formatsTitle: "Nabídka workshopů",
       workshops: [
