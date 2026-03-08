@@ -86,7 +86,7 @@ export const translations = {
     proJednotlivce: {
       heroTag: "Pro jednotlivce",
       heroTitle: "Pro jednotlivce",
-      heroDesc: "Pro lídry, podnikatele a profesionály, kteří chtějí růst, zvládat náročné situace a vést rozhovory, které opravdu rozhodují.",
+      heroDesc: "Pro lídry, podnikatele a profesionály, kteří chtějí růst, zvládat změnu a vést náročné rozhovory, které opravdu rozhodují.",
       coachingTag: "Koučink",
       coachingTitle: "Individuální leadership koučink",
       coachingDesc: "Strategická spolupráce pro lídry a podnikatele, kteří stojí před důležitými rozhodnutími, řeší náročné situace v týmu nebo chtějí růst do další úrovně leadershipu.",
