@@ -57,7 +57,7 @@ export const translations = {
     },
     proFirmy: {
       heroTag: "Pro firmy",
-      heroTitle: "Firemní vzdělávání a rozvoj leadershipu",
+      heroTitle: "Firemní vzdělávání a rozvoj lídrů",
       heroDesc: "Pomáhám firmám rozvíjet silnou komunikaci, zvládat konflikty a posilovat leadership týmů.",
       formatsTag: "Formáty",
       formatsTitle: "Nabídka workshopů",
@@ -214,7 +214,7 @@ export const translations = {
     },
     proFirmy: {
       heroTag: "For Companies",
-      heroTitle: "Corporate training & leadership development",
+      heroTitle: "Corporate training & leader development",
       heroDesc: "I help companies develop strong communication, manage conflicts, and strengthen team leadership.",
       formatsTag: "Formats",
       formatsTitle: "Workshop offerings",
