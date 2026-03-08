@@ -6,12 +6,14 @@ import kristynaPhoto from "@/assets/kristyna_kolcavova.png";
 import annaPhoto from "@/assets/anna_behler.png";
 import gabrielaPhoto from "@/assets/gabriela_simsova.png";
 import matyasPhoto from "@/assets/matyas_drevo.png";
+import martinPhoto from "@/assets/martin_belan.png";
 
 const testimonialPhotos: Record<string, string> = {
   kristyna_kolcavova: kristynaPhoto,
   anna_behler: annaPhoto,
   gabriela_simsova: gabrielaPhoto,
   matyas_drevo: matyasPhoto,
+  martin_belan: martinPhoto,
 };
 
 const Home = () => {
