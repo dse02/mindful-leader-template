@@ -106,7 +106,9 @@ const Home = () => {
             </div>
             <div className="space-y-5">
               <h3 className="text-2xl font-serif font-semibold text-foreground">
-                {h.individualTitle}
+                {h.individualTitle.split("&").map((part, i, arr) => (
+                  <span key={i}>{part.trim()}{i < arr.length - 1 && <><br />& </>}</span>
+                ))}
               </h3>
               <p className="text-muted-foreground leading-relaxed">
                 {h.individualDesc}
