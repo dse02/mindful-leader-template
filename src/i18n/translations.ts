@@ -151,8 +151,8 @@ export const translations = {
       heroDesc: "Tříhodinové praktické workshopy v malé skupině zaměřené na rozhovory, které rozhodují v leadershipu i životě.",
       workshops: [
         { title: "Hluboké rozhovory", description: "Workshop zaměřený na umění vést rozhovory, které vytvářejí skutečné porozumění a důvěru." },
-        { title: "Náročné rozhovory bez konfliktu", description: "Jak vést obtížné rozhovory v týmu a udržet respekt, jasnost i vztahy." },
-        { title: "Rozhodování lídra", description: "Praktický workshop o tom, jak se rozhodovat pod tlakem, s neúplnými informacemi a v nejistotě." },
+        { title: "Náročné rozhovory bez konfliktu", description: "Jak vést obtížné rozhovory a\u00A0udržet respekt, jasnost i\u00A0vztahy." },
+        { title: "Hackni si mozek", description: "Informacemi nabitý workshop o\u00A0tom, jak pracovat se stresem, emocemi a\u00A0prokrastinací. Udělejte si ze svého mozku svého parťáka osobního rozvoje." },
       ],
       preparing: "Připravujeme",
       location: "Praha / Online",
