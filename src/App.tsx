@@ -12,6 +12,8 @@ import Koucink from "./pages/Koucink";
 import OtevreneWorkshopy from "./pages/OtevreneWorkshopy";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import OchranaOsobnichUdaju from "./pages/OchranaOsobnichUdaju";
+import ObchodniPodminky from "./pages/ObchodniPodminky";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
