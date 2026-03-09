@@ -338,8 +338,8 @@ export const translations = {
       heroDesc: "Three-hour practical workshops in small groups focused on conversations that matter in leadership and life.",
       workshops: [
         { title: "Deep conversations", description: "A workshop focused on the art of leading conversations that create genuine understanding and trust." },
-        { title: "Difficult conversations without conflict", description: "How to lead difficult conversations in a team while maintaining respect, clarity, and relationships." },
-        { title: "Leader's decision-making", description: "A practical workshop on how to make decisions under pressure, with incomplete information, and in uncertainty." },
+        { title: "Difficult conversations without conflict", description: "How to lead difficult conversations while maintaining respect, clarity, and relationships." },
+        { title: "Hack your brain", description: "An information-packed workshop on how to work with stress, emotions, and procrastination. Make your brain your personal development partner." },
       ],
       preparing: "Coming soon",
       location: "Prague / Online",
