@@ -80,6 +80,26 @@ const ProJednotlivce = () => {
         </div>
       </section>
 
+      {/* SimpleShop – Reservation & Order */}
+      <section className="py-24 md:py-32 bg-secondary">
+        <div className="container max-w-2xl text-center">
+          <p className="text-accent font-sans text-sm tracking-[0.2em] uppercase mb-4">Rezervace</p>
+          <h2 className="text-3xl md:text-4xl font-serif font-semibold text-foreground mb-12">
+            Rezervace a objednávka
+          </h2>
+          <div
+            id="simpleshop-container"
+            className="bg-background border border-border rounded-lg shadow-sm p-8 md:p-12 mb-8 min-h-[200px] flex items-center justify-center"
+          >
+            {/* SEM VLOŽIT <SCRIPT> KÓD ZE SIMPLESHOPU */}
+            <p className="text-muted-foreground/40 text-sm italic">Načítání objednávkového formuláře…</p>
+          </div>
+          <p className="text-muted-foreground text-sm leading-relaxed">
+            Bezpečná platba probíhá přes systém SimpleShop. Po objednání obdržíte e-mail s fakturou a QR kódem pro okamžitou platbu.
+          </p>
+        </div>
+      </section>
+
       <section className="py-24 md:py-32 bg-primary">
         <div className="container max-w-2xl text-center">
           <h2 className="text-3xl md:text-4xl font-serif font-semibold text-primary-foreground mb-6">

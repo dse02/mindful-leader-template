@@ -49,8 +49,16 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="mt-16 pt-8 border-t border-primary-foreground/10 text-xs text-primary-foreground/40">
-          © {new Date().getFullYear()} Daniela Sedloňová. {t.footer.copyright}
+        <div className="mt-16 pt-8 border-t border-primary-foreground/10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 text-xs text-primary-foreground/40">
+          <span>© {new Date().getFullYear()} Daniela Sedloňová. {t.footer.copyright}</span>
+          <nav className="flex gap-6">
+            <Link to={localPath("/ochrana-osobnich-udaju")} className="hover:text-primary-foreground transition-colors">
+              {t.footer.privacy}
+            </Link>
+            <Link to={localPath("/obchodni-podminky")} className="hover:text-primary-foreground transition-colors">
+              {t.footer.terms}
+            </Link>
+          </nav>
         </div>
       </div>
     </footer>

@@ -187,6 +187,8 @@ export const translations = {
     footer: {
       desc: "Pomáhám lídrům, podnikatelům a firmám zvládat změny, rozvíjet komunikaci a efektivně vést v mezinárodním prostředí.",
       copyright: "Všechna práva vyhrazena.",
+      privacy: "Ochrana osobních údajů",
+      terms: "Obchodní podmínky",
     },
   },
   en: {
@@ -375,6 +377,8 @@ export const translations = {
     footer: {
       desc: "I help leaders, entrepreneurs, and companies develop strong communication and build a healthy work culture.",
       copyright: "All rights reserved.",
+      privacy: "Privacy Policy",
+      terms: "Terms & Conditions",
     },
   },
 } as const;

@@ -12,6 +12,8 @@ import Koucink from "./pages/Koucink";
 import OtevreneWorkshopy from "./pages/OtevreneWorkshopy";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import OchranaOsobnichUdaju from "./pages/OchranaOsobnichUdaju";
+import ObchodniPodminky from "./pages/ObchodniPodminky";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -27,6 +29,8 @@ const AppRoutes = () => (
         <Route path="/otevrene-workshopy" element={<OtevreneWorkshopy />} />
         <Route path="/o-mne" element={<About />} />
         <Route path="/kontakt" element={<Contact />} />
+        <Route path="/ochrana-osobnich-udaju" element={<OchranaOsobnichUdaju />} />
+        <Route path="/obchodni-podminky" element={<ObchodniPodminky />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Layout>
