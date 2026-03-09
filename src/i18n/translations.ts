@@ -266,6 +266,7 @@ export const translations = {
         { title: "Full-day workshop", desc: "Comprehensive program with a deep dive into the topic." },
       ],
       workshopsPriceNote: "* All workshops are tailored to the specific needs of your company.",
+      workshopsCtaBtn: "Book an introductory consultation",
       coachingTag: "Coaching",
       coachingTitle: "Executive coaching",
       coachingDesc: "Strategic partnership for leaders and entrepreneurs facing important decisions, navigating challenging team situations, or looking to grow into the next level of leadership.",

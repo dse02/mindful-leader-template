@@ -30,10 +30,10 @@ const OtevreneWorkshopy = () => {
                   <p className="text-xs font-sans tracking-wide text-accent uppercase">{o.preparing}</p>
                   <p className="text-xs text-muted-foreground">{o.location}</p>
                 </div>
-                <Button size="sm" asChild>
-                  <a href="https://calendly.com/danielasedlonova/konzultace" target="_blank" rel="noopener noreferrer">
+                <Button size="sm" variant="outline" asChild>
+                  <Link to={localPath("/otevrene-workshopy")}>
                     {o.reserveBtn}
-                  </a>
+                  </Link>
                 </Button>
               </div>
             ))}

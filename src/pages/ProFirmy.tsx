@@ -49,6 +49,13 @@ const ProFirmy = () => {
             ))}
           </div>
           <p className="text-muted-foreground/60 text-sm text-center mt-8">{p.workshopsPriceNote}</p>
+          <div className="text-center mt-8">
+            <Button asChild>
+              <a href="https://calendly.com/danielasedlonova/konzultace" target="_blank" rel="noopener noreferrer">
+                {p.workshopsCtaBtn}
+              </a>
+            </Button>
+          </div>
         </div>
       </section>
 
