@@ -116,7 +116,7 @@ export const translations = {
       workshopsTag: "Kurzy",
       workshopsTitle: "Otevřené kurzy",
       workshopsDesc: "Praktické kurzy v malé skupině, zaměřené na komunikaci a osobní rozvoj.",
-      workshopsList: ["Hluboké rozhovory", "Náročné rozhovory bez konfliktu", "Rozhodování lídra"],
+      workshopsList: ["Hluboké rozhovory", "Náročné rozhovory bez konfliktu", "Hackni si mozek"],
       workshopsBtn: "Zobrazit kurzy",
       ctaTitle: "Začněme rozhovor.",
       ctaDesc: "Každá spolupráce začíná úvodní konzultací.",
