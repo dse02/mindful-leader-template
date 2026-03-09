@@ -78,6 +78,7 @@ export const translations = {
         { title: "Celodenní workshop", desc: "Komplexní program s hloubkovým ponorem do tématu." },
       ],
       workshopsPriceNote: "* Workshopy připravuji vždy na míru dle potřeb společnosti.",
+      workshopsCtaBtn: "Domluvit úvodní konzultaci",
       coachingTag: "Koučink",
       coachingTitle: "Executive koučink",
       coachingDesc: "Strategická spolupráce pro lídry a podnikatele, kteří stojí před důležitými rozhodnutími, řeší náročné situace v týmu nebo chtějí růst do další úrovně leadershipu.",
