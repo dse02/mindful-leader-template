@@ -29,6 +29,8 @@ const AppRoutes = () => (
         <Route path="/otevrene-workshopy" element={<OtevreneWorkshopy />} />
         <Route path="/o-mne" element={<About />} />
         <Route path="/kontakt" element={<Contact />} />
+        <Route path="/ochrana-osobnich-udaju" element={<OchranaOsobnichUdaju />} />
+        <Route path="/obchodni-podminky" element={<ObchodniPodminky />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Layout>

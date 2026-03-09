@@ -377,6 +377,8 @@ export const translations = {
     footer: {
       desc: "I help leaders, entrepreneurs, and companies develop strong communication and build a healthy work culture.",
       copyright: "All rights reserved.",
+      privacy: "Privacy Policy",
+      terms: "Terms & Conditions",
     },
   },
 } as const;
