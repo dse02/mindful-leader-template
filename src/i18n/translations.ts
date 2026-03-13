@@ -149,11 +149,10 @@ export const translations = {
     otevreneWorkshopy: {
       heroTag: "Pro jednotlivce",
       heroTitle: "Otevřené kurzy pro veřejnost",
-      heroDesc: "Tříhodinové praktické workshopy v malé skupině zaměřené na rozhovory, které rozhodují v leadershipu i životě.",
+      heroDesc: "Praktické workshopy v malé skupině zaměřené na rozhovory, které rozhodují v leadershipu i životě.",
       workshops: [
         { title: "Rozhovory, které rozhodují", description: "Workshop komunikačních technik pro náročné situace. Skroťte emoce, budujte vztahy a\u00A0dosáhněte výsledků i\u00A0v\u00A0těžkých rozhovorech.", link: "/rozhovory-ktere-rozhoduji" },
         { title: "Hluboké rozhovory", description: "Workshop zaměřený na umění vést rozhovory, které vytvářejí skutečné porozumění a důvěru." },
-        { title: "Náročné rozhovory bez konfliktu", description: "Jak vést obtížné rozhovory a\u00A0udržet respekt, jasnost i\u00A0vztahy." },
         { title: "Hackni si mozek", description: "Informacemi nabitý workshop o\u00A0tom, jak pracovat se stresem, emocemi a\u00A0prokrastinací. Udělejte si ze svého mozku svého parťáka osobního rozvoje." },
       ],
       preparing: "Připravujeme",
