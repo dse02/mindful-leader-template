@@ -10,6 +10,7 @@ import ProFirmy from "./pages/ProFirmy";
 import ProJednotlivce from "./pages/ProJednotlivce";
 import Koucink from "./pages/Koucink";
 import OtevreneWorkshopy from "./pages/OtevreneWorkshopy";
+import RozhovoryKtereRozhoduji from "./pages/RozhovoryKtereRozhoduji";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import OchranaOsobnichUdaju from "./pages/OchranaOsobnichUdaju";
