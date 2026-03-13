@@ -3,6 +3,9 @@ import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/i18n/LanguageContext";
 
 const OtevreneWorkshopy = () => {
+  const { t, localPath, lang } = useLanguage();
+
+const OtevreneWorkshopy = () => {
   const { t, localPath } = useLanguage();
   const o = t.otevreneWorkshopy;
 
