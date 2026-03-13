@@ -304,8 +304,8 @@ const RozhovoryKtereRozhoduji = () => {
             className="bg-primary-foreground text-primary hover:bg-primary-foreground/90"
             asChild
           >
-            <a href="https://calendly.com/danielasedlonova/konzultace" target="_blank" rel="noopener noreferrer">
-              {isEn ? "Reserve a spot" : "Rezervovat místo"}
+            <a href="https://form.simpleshop.cz/yXMAg/buy/" target="_blank" rel="noopener noreferrer">
+              {isEn ? "I want a spot" : "Chci místo"}
             </a>
           </Button>
         </div>
