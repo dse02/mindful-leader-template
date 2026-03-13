@@ -307,7 +307,7 @@ export const translations = {
       workshopsTag: "Courses",
       workshopsTitle: "Open courses",
       workshopsDesc: "Practical courses in small groups, focused on communication and personal development.",
-      workshopsList: ["Deep conversations", "Difficult conversations without conflict", "Hack your brain"],
+      workshopsList: ["Conversations that matter", "Deep conversations", "Hack your brain"],
       workshopsBtn: "View courses",
       ctaTitle: "Let's start a conversation.",
       ctaDesc: "Every collaboration begins with an introductory consultation.",
