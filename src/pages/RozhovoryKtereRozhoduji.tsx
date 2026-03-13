@@ -22,6 +22,11 @@ const RozhovoryKtereRozhoduji = () => {
               ? "A communication techniques workshop for tough situations — tame your emotions, build relationships, and achieve results."
               : "Workshop komunikačních technik pro náročné situace – skroťte emoce, budujte vztahy a\u00A0dosáhněte výsledků."}
           </p>
+          <Button size="lg" className="mt-10" asChild>
+            <a href="https://form.simpleshop.cz/yXMAg/buy/" target="_blank" rel="noopener noreferrer">
+              {isEn ? "Reserve a spot" : "Rezervovat místo"}
+            </a>
+          </Button>
         </div>
       </section>
 
@@ -299,8 +304,8 @@ const RozhovoryKtereRozhoduji = () => {
             className="bg-primary-foreground text-primary hover:bg-primary-foreground/90"
             asChild
           >
-            <a href="https://calendly.com/danielasedlonova/konzultace" target="_blank" rel="noopener noreferrer">
-              {isEn ? "Reserve a spot" : "Rezervovat místo"}
+            <a href="https://form.simpleshop.cz/yXMAg/buy/" target="_blank" rel="noopener noreferrer">
+              {isEn ? "I want a spot" : "Chci místo"}
             </a>
           </Button>
         </div>
