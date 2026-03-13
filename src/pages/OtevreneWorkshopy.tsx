@@ -27,13 +27,25 @@ const OtevreneWorkshopy = () => {
                 <h3 className="text-xl font-serif font-semibold text-foreground mb-3">{ws.title}</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed mb-6 flex-1">{ws.description}</p>
                 <div className="space-y-1 mb-6">
-                  <p className="text-xs font-sans tracking-wide text-accent uppercase">{o.preparing}</p>
-                  <p className="text-xs text-muted-foreground">{o.location}</p>
+                  {('link' in ws && ws.link) ? (
+                    <p className="text-xs font-sans tracking-wide text-accent uppercase">24. 4. 2026 · Praha</p>
+                  ) : (
+                    <>
+                      <p className="text-xs font-sans tracking-wide text-accent uppercase">{o.preparing}</p>
+                      <p className="text-xs text-muted-foreground">{o.location}</p>
+                    </>
+                  )}
                 </div>
                 <Button size="sm" variant="outline" asChild>
-                  <Link to={localPath("/otevrene-workshopy")}>
-                    {o.reserveBtn}
-                  </Link>
+                  {('link' in ws && ws.link) ? (
+                    <Link to={localPath(ws.link)}>
+                      {lang === "cs" ? "Více informací" : "More info"}
+                    </Link>
+                  ) : (
+                    <Link to={localPath("/otevrene-workshopy")}>
+                      {o.reserveBtn}
+                    </Link>
+                  )}
                 </Button>
               </div>
             ))}
