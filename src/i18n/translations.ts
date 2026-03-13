@@ -151,6 +151,7 @@ export const translations = {
       heroTitle: "Otevřené kurzy pro veřejnost",
       heroDesc: "Tříhodinové praktické workshopy v malé skupině zaměřené na rozhovory, které rozhodují v leadershipu i životě.",
       workshops: [
+        { title: "Rozhovory, které rozhodují", description: "Workshop komunikačních technik pro náročné situace. Skroťte emoce, budujte vztahy a\u00A0dosáhněte výsledků i\u00A0v\u00A0těžkých rozhovorech.", link: "/rozhovory-ktere-rozhoduji" },
         { title: "Hluboké rozhovory", description: "Workshop zaměřený na umění vést rozhovory, které vytvářejí skutečné porozumění a důvěru." },
         { title: "Náročné rozhovory bez konfliktu", description: "Jak vést obtížné rozhovory a\u00A0udržet respekt, jasnost i\u00A0vztahy." },
         { title: "Hackni si mozek", description: "Informacemi nabitý workshop o\u00A0tom, jak pracovat se stresem, emocemi a\u00A0prokrastinací. Udělejte si ze svého mozku svého parťáka osobního rozvoje." },
@@ -341,6 +342,7 @@ export const translations = {
       heroTitle: "Open courses for the public",
       heroDesc: "Three-hour practical workshops in small groups focused on conversations that matter in leadership and life.",
       workshops: [
+        { title: "Conversations that matter", description: "A communication techniques workshop for tough situations. Tame your emotions, build relationships, and achieve results even in difficult conversations.", link: "/rozhovory-ktere-rozhoduji" },
         { title: "Deep conversations", description: "A workshop focused on the art of leading conversations that create genuine understanding and trust." },
         { title: "Difficult conversations without conflict", description: "How to lead difficult conversations while maintaining respect, clarity, and relationships." },
         { title: "Hack your brain", description: "An information-packed workshop on how to work with stress, emotions, and procrastination. Make your brain your personal development partner." },

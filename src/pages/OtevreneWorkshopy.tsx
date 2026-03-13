@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/i18n/LanguageContext";
 
 const OtevreneWorkshopy = () => {
-  const { t, localPath } = useLanguage();
+  const { t, localPath, lang } = useLanguage();
   const o = t.otevreneWorkshopy;
 
   return (
@@ -21,19 +21,31 @@ const OtevreneWorkshopy = () => {
 
       <section className="py-24 md:py-32 bg-secondary">
         <div className="container max-w-4xl">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {o.workshops.map((ws) => (
               <div key={ws.title} className="bg-background border border-border p-8 flex flex-col">
                 <h3 className="text-xl font-serif font-semibold text-foreground mb-3">{ws.title}</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed mb-6 flex-1">{ws.description}</p>
                 <div className="space-y-1 mb-6">
-                  <p className="text-xs font-sans tracking-wide text-accent uppercase">{o.preparing}</p>
-                  <p className="text-xs text-muted-foreground">{o.location}</p>
+                  {('link' in ws && ws.link) ? (
+                    <p className="text-xs font-sans tracking-wide text-accent uppercase">24. 4. 2026 · Praha</p>
+                  ) : (
+                    <>
+                      <p className="text-xs font-sans tracking-wide text-accent uppercase">{o.preparing}</p>
+                      <p className="text-xs text-muted-foreground">{o.location}</p>
+                    </>
+                  )}
                 </div>
                 <Button size="sm" variant="outline" asChild>
-                  <Link to={localPath("/otevrene-workshopy")}>
-                    {o.reserveBtn}
-                  </Link>
+                  {('link' in ws && ws.link) ? (
+                    <Link to={localPath(ws.link)}>
+                      {lang === "cs" ? "Více informací" : "More info"}
+                    </Link>
+                  ) : (
+                    <Link to={localPath("/otevrene-workshopy")}>
+                      {o.reserveBtn}
+                    </Link>
+                  )}
                 </Button>
               </div>
             ))}

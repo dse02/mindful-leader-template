@@ -10,6 +10,7 @@ import ProFirmy from "./pages/ProFirmy";
 import ProJednotlivce from "./pages/ProJednotlivce";
 import Koucink from "./pages/Koucink";
 import OtevreneWorkshopy from "./pages/OtevreneWorkshopy";
+import RozhovoryKtereRozhoduji from "./pages/RozhovoryKtereRozhoduji";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import OchranaOsobnichUdaju from "./pages/OchranaOsobnichUdaju";
@@ -27,6 +28,7 @@ const AppRoutes = () => (
         <Route path="/pro-jednotlivce" element={<ProJednotlivce />} />
         <Route path="/koucink" element={<Koucink />} />
         <Route path="/otevrene-workshopy" element={<OtevreneWorkshopy />} />
+        <Route path="/rozhovory-ktere-rozhoduji" element={<RozhovoryKtereRozhoduji />} />
         <Route path="/o-mne" element={<About />} />
         <Route path="/kontakt" element={<Contact />} />
         <Route path="/ochrana-osobnich-udaju" element={<OchranaOsobnichUdaju />} />
