@@ -21,7 +21,7 @@ const OtevreneWorkshopy = () => {
 
       <section className="py-24 md:py-32 bg-secondary">
         <div className="container max-w-4xl">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {o.workshops.map((ws) => (
               <div key={ws.title} className="bg-background border border-border p-8 flex flex-col">
                 <h3 className="text-xl font-serif font-semibold text-foreground mb-3">{ws.title}</h3>
