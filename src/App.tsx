@@ -28,6 +28,7 @@ const AppRoutes = () => (
         <Route path="/pro-jednotlivce" element={<ProJednotlivce />} />
         <Route path="/koucink" element={<Koucink />} />
         <Route path="/otevrene-workshopy" element={<OtevreneWorkshopy />} />
+        <Route path="/rozhovory-ktere-rozhoduji" element={<RozhovoryKtereRozhoduji />} />
         <Route path="/o-mne" element={<About />} />
         <Route path="/kontakt" element={<Contact />} />
         <Route path="/ochrana-osobnich-udaju" element={<OchranaOsobnichUdaju />} />

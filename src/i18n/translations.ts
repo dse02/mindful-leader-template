@@ -342,6 +342,7 @@ export const translations = {
       heroTitle: "Open courses for the public",
       heroDesc: "Three-hour practical workshops in small groups focused on conversations that matter in leadership and life.",
       workshops: [
+        { title: "Conversations that matter", description: "A communication techniques workshop for tough situations. Tame your emotions, build relationships, and achieve results even in difficult conversations.", link: "/rozhovory-ktere-rozhoduji" },
         { title: "Deep conversations", description: "A workshop focused on the art of leading conversations that create genuine understanding and trust." },
         { title: "Difficult conversations without conflict", description: "How to lead difficult conversations while maintaining respect, clarity, and relationships." },
         { title: "Hack your brain", description: "An information-packed workshop on how to work with stress, emotions, and procrastination. Make your brain your personal development partner." },
