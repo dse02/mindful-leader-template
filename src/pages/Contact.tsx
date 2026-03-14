@@ -8,10 +8,28 @@ const Contact = () => {
   const c = t.contact;
   const [form, setForm] = useState({ name: "", email: "", message: "" });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [submitting, setSubmitting] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    toast.success(c.success);
-    setForm({ name: "", email: "", message: "" });
+    setSubmitting(true);
+    try {
+      const res = await fetch("https://formspree.io/f/xyknplga", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+      if (res.ok) {
+        toast.success(c.success);
+        setForm({ name: "", email: "", message: "" });
+      } else {
+        toast.error("Něco se pokazilo. Zkuste to prosím znovu.");
+      }
+    } catch {
+      toast.error("Něco se pokazilo. Zkuste to prosím znovu.");
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
