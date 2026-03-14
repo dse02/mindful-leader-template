@@ -294,19 +294,18 @@ const RozhovoryKtereRozhoduji = () => {
       </section>
 
       {/* CTA */}
-      <section className="py-24 md:py-32 bg-accent">
+      <section className="py-24 md:py-32 bg-secondary">
         <div className="container max-w-2xl text-center">
-          <h2 className="text-3xl md:text-4xl font-serif font-semibold text-primary-foreground mb-6">
+          <h2 className="text-3xl md:text-4xl font-serif font-semibold text-foreground mb-6">
             {isEn ? "Secure your spot" : "Rezervujte si místo"}
           </h2>
-          <p className="text-primary-foreground/80 text-lg mb-10">
+          <p className="text-muted-foreground text-lg mb-10">
             {isEn
               ? "Capacity is limited to 12 participants. Reserve your place today."
               : "Kapacita je omezena na 12 účastníků. Zarezervujte si místo ještě dnes."}
           </p>
           <Button
             size="lg"
-            className="bg-primary-foreground text-primary hover:bg-primary-foreground/90"
             asChild
           >
             <a href="https://form.simpleshop.cz/yXMAg/buy/" target="_blank" rel="noopener noreferrer">
