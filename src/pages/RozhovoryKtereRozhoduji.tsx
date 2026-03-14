@@ -294,7 +294,7 @@ const RozhovoryKtereRozhoduji = () => {
       </section>
 
       {/* CTA */}
-      <section className="py-24 md:py-32 bg-primary">
+      <section className="py-24 md:py-32 bg-accent">
         <div className="container max-w-2xl text-center">
           <h2 className="text-3xl md:text-4xl font-serif font-semibold text-primary-foreground mb-6">
             {isEn ? "Secure your spot" : "Rezervujte si místo"}
