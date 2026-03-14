@@ -89,8 +89,8 @@ const Contact = () => {
                 placeholder={c.messagePlaceholder}
               />
             </div>
-            <Button type="submit" size="lg" className="w-full">
-              {c.submit}
+            <Button type="submit" size="lg" className="w-full" disabled={submitting}>
+              {submitting ? "Odesílám..." : c.submit}
             </Button>
           </form>
         </div>
