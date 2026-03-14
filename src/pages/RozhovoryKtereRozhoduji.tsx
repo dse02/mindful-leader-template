@@ -306,7 +306,6 @@ const RozhovoryKtereRozhoduji = () => {
           </p>
           <Button
             size="lg"
-            className="bg-primary-foreground text-primary hover:bg-primary-foreground/90"
             asChild
           >
             <a href="https://form.simpleshop.cz/yXMAg/buy/" target="_blank" rel="noopener noreferrer">
