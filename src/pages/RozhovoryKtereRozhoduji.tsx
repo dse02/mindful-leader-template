@@ -214,6 +214,11 @@ const RozhovoryKtereRozhoduji = () => {
                   </p>
                 </div>
               </div>
+              <Button size="lg" className="w-full mt-6" asChild>
+                <a href="https://form.simpleshop.cz/yXMAg/buy/" target="_blank" rel="noopener noreferrer">
+                  {isEn ? "Buy" : "Koupit"}
+                </a>
+              </Button>
             </div>
           </div>
         </div>
