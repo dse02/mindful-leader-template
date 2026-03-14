@@ -249,12 +249,12 @@ const RozhovoryKtereRozhoduji = () => {
               </h3>
               <p className="text-muted-foreground leading-relaxed">
                 {isEn
-                  ? "Want to organize the workshop just for your team? Content and price will be tailored — contact us for a corporate offer."
-                  : "Chcete uspořádat workshop pouze pro váš tým? Obsah i\u00A0cena se upraví na míru – kontaktujte nás pro firemní nabídku."}
+                  ? "Want to organize the workshop just for your team? Content and price will be tailored — contact me for a corporate offer."
+                  : "Chcete uspořádat workshop pouze pro váš tým? Obsah i\u00A0cena se upraví na míru – kontaktujte mne pro firemní nabídku."}
               </p>
               <Button variant="outline" className="mt-6" asChild>
                 <a href="https://calendly.com/danielasedlonova/konzultace" target="_blank" rel="noopener noreferrer">
-                  {isEn ? "Contact us" : "Kontaktujte nás"}
+                  {isEn ? "I want a corporate course" : "Chci kurz pro firmu"}
                 </a>
               </Button>
             </div>
