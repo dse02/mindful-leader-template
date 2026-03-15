@@ -50,7 +50,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-16 pt-8 border-t border-primary-foreground/10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 text-xs text-primary-foreground/40">
-          <span>© {new Date().getFullYear()} Daniela Sedloňová. {t.footer.copyright}</span>
+          <span>© {new Date().getFullYear()} Daniela Sedloňová • Buzulucká 570/8, 160 00 Praha 6 • IČO: 76053261 • Zapsaná v živnostenském rejstříku</span>
           <nav className="flex gap-6">
             <Link to={localPath("/ochrana-osobnich-udaju")} className="hover:text-primary-foreground transition-colors">
               {t.footer.privacy}
