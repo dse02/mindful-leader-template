@@ -173,8 +173,8 @@ export const translations = {
     },
     contact: {
       tag: "Kontakt",
-      title: "Spojme se",
-      desc: "Pokud máte zájem o spolupráci, napište nebo si domluvte úvodní konzultaci.",
+      title: "Napište mi",
+      desc: "Chcete školení pro tým, osobní koučink a nebo se jen na něco zeptat? Klidně napište. Odpovídám většinou do 24 hodin.",
       nameLabel: "Jméno",
       namePlaceholder: "Vaše jméno",
       emailLabel: "Email",
