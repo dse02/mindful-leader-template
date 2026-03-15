@@ -4,9 +4,9 @@ on:
    branches: [main]
  workflow_dispatch:
 permissions:
- contents: read
  pages: write
  id-token: write
+ contents: read
 jobs:
  build:
    runs-on: ubuntu-latest
@@ -15,17 +15,17 @@ jobs:
      - uses: actions/setup-node@v4
        with:
          node-version: 20
-     - run: npm install
+     - run: npm ci
      - run: npm run build
      - uses: actions/upload-pages-artifact@v3
        with:
-         path: ./dist
+         path: dist
  deploy:
    needs: build
-   runs-on: ubuntu-latest
    environment:
      name: github-pages
-     url: ${{ steps.deployment.outputs.page_url }}
+     url: ${{steps.deployment.outputs.page_url}}
+   runs-on: ubuntu-latest
    steps:
      - id: deployment
        uses: actions/deploy-pages@v4
