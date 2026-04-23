@@ -28,7 +28,7 @@ const OtevreneWorkshopy = () => {
                 <p className="text-muted-foreground text-sm leading-relaxed mb-6 flex-1">{ws.description}</p>
                 <div className="space-y-1 mb-6">
                   {('link' in ws && ws.link) ? (
-                    <p className="text-xs font-sans tracking-wide text-accent uppercase">24. 4. 2026 · Praha{lang === "en" ? " · in Czech language" : ""}</p>
+                    <p className="text-xs font-sans tracking-wide text-accent uppercase">{o.preparing}</p>
                   ) : (
                     <>
                       <p className="text-xs font-sans tracking-wide text-accent uppercase">{o.preparing}</p>
