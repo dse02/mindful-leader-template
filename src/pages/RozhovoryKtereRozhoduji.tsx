@@ -151,78 +151,7 @@ const RozhovoryKtereRozhoduji = () => {
         </div>
       </section>
 
-      {/* Formát a informace */}
-      <section className="py-24 md:py-32 bg-secondary">
-        <div className="container max-w-4xl">
-          <div className="text-center mb-16">
-            <Calendar className="w-8 h-8 text-accent mx-auto mb-4" />
-            <h2 className="text-3xl md:text-4xl font-serif font-semibold text-foreground">
-              {isEn ? "Format & details" : "Formát a\u00A0informace"}
-            </h2>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div className="space-y-6">
-              {[
-                { icon: Calendar, label: isEn ? "Date" : "Datum", value: "24. 4. 2026" },
-                { icon: Clock, label: isEn ? "Time" : "Čas", value: "9:30 – 13:00" },
-                { icon: MapPin, label: isEn ? "Location" : "Místo", value: "SpoluChvíle – Šlejnická 17, Praha 6, Dejvice, Hanspaulka" },
-                { icon: Users, label: isEn ? "Capacity" : "Kapacita", value: isEn ? "max 12 participants" : "max 12 účastníků" },
-              ].map((item, i) => (
-                <div key={i} className="flex gap-4 items-start">
-                  <item.icon className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
-                  <div>
-                    <p className="text-xs font-sans tracking-wide text-accent uppercase mb-1">{item.label}</p>
-                    <p className="text-foreground">{item.value}</p>
-                  </div>
-                </div>
-              ))}
-              <div className="flex gap-4 items-start">
-                <BookOpen className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
-                <div>
-                  <p className="text-xs font-sans tracking-wide text-accent uppercase mb-1">
-                    {isEn ? "Format" : "Formát"}
-                  </p>
-                  <p className="text-foreground">
-                    {isEn
-                      ? "Small group, practical model situations, roleplay and immediate feedback"
-                      : "Malá skupina, praktické modelové situace, roleplay a\u00A0okamžitý feedback"}
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Cena */}
-            <div className="bg-background border border-border p-8">
-              <h3 className="text-xl font-serif font-semibold text-foreground mb-6">
-                {isEn ? "Price" : "Cena"}
-              </h3>
-              <div className="space-y-4">
-                <div className="bg-accent/10 border border-accent/20 p-4">
-                  <p className="text-xs font-sans tracking-wide text-accent uppercase mb-1">
-                    Early bird {isEn ? "until" : "do"} 10. 4.
-                  </p>
-                  <p className="text-2xl font-serif font-semibold text-foreground">
-                    2 990 Kč <span className="text-sm font-sans text-muted-foreground">/ {isEn ? "person" : "osoba"}</span>
-                  </p>
-                </div>
-                <div className="p-4">
-                  <p className="text-xs font-sans tracking-wide text-muted-foreground uppercase mb-1">
-                    {isEn ? "Standard price from" : "Standardní cena od"} 11. 4.
-                  </p>
-                  <p className="text-2xl font-serif font-semibold text-foreground">
-                    3 490 Kč <span className="text-sm font-sans text-muted-foreground">/ {isEn ? "person" : "osoba"}</span>
-                  </p>
-                </div>
-              </div>
-              <Button size="lg" className="w-full mt-6" asChild>
-                <a href="https://form.simpleshop.cz/yXMAg/buy/" target="_blank" rel="noopener noreferrer">
-                  {isEn ? "Buy" : "Koupit"}
-                </a>
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Formát a informace - skryto, kurz se připravuje */}
 
       {/* Hromadná sleva */}
       <section className="py-24 md:py-32">
